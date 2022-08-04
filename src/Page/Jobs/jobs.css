@@ -1,0 +1,64 @@
+.jobsMain{
+    width: 100%;
+    /* background-color: rgb(24, 23, 23);
+    color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.jobHead{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobheadSrch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.jobheadSrch>input{
+    width: 35vw;
+        height: 7vh;
+}
+
+.jobheadSrch>button{
+    height: 7vh;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.indiJobs{
+    box-shadow: 0 1px 0 rgb(17 17 26 / 5%),
+    0 0 8px rgb(17 17 26 / 10%);
+    width: 20vw;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.insideJobs{
+    width: 17vw;
+}
+
+.indiJobDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin-bottom: 10vh;
+}
+
