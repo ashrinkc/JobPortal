@@ -48,41 +48,6 @@ const Home = () => {
         {/* <div className="hrcont">
       <hr className="hrrt" />
     </div> */}
-        <div className="getJob">
-          <h1>How To Join Us</h1>
-          <div className="stepsContainer">
-            <div className="stepsImg">
-              <img src="http://i.imgur.com/ia3Jrgc.png" />
-            </div>
-            <div className="steps">
-              <h2>Make Your Own Video And Join Us</h2>
-              <div>
-                <p style={{ color: "red" }}>Step 1</p>
-                <h5>Make a video and send Us</h5>
-                <p>
-                  Upload Your Video and send us so we can review your
-                  qualifications
-                </p>
-              </div>
-              <div>
-                <p style={{ color: "red" }}>Step 2</p>
-                <h5>Make a video and send Us</h5>
-                <p>
-                  Upload Your Video and send us so we can review your
-                  qualifications
-                </p>
-              </div>
-              <div>
-                <p style={{ color: "red" }}>Step 3</p>
-                <h5>Make a video and send Us</h5>
-                <p>
-                  Upload Your Video and send us so we can review your
-                  qualifications
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
 
         {/* <hr className="hrr" /> */}
         <div className="talent">
@@ -95,6 +60,11 @@ const Home = () => {
           </div>
         </div>
         <div className="chooseUs">
+          <div className="availableJobsContainer">
+            <h2>Available Jobs</h2>
+            <div className="avaJobsData">{data}</div>
+          </div>
+          <hr className="hrr" />
           <h2>Why Choose Us</h2>
           <div className="choseMainContainer">
             <div className="choseContainer">
@@ -120,9 +90,40 @@ const Home = () => {
             </div>
           </div>
           <hr className="hrr" />
-          <div className="availableJobsContainer">
-            <h2>Available Jobs</h2>
-            <div className="avaJobsData">{data}</div>
+          <div className="getJob">
+            <h1>How To Join Us</h1>
+            <div className="stepsContainer">
+              <div className="stepsImg">
+                <img src="http://i.imgur.com/ia3Jrgc.png" />
+              </div>
+              <div className="steps">
+                <h2>Make Your Own Video And Join Us</h2>
+                <div>
+                  <p style={{ color: "red" }}>Step 1</p>
+                  <h5>Make a video and send Us</h5>
+                  <p>
+                    Upload Your Video and send us so we can review your
+                    qualifications
+                  </p>
+                </div>
+                <div>
+                  <p style={{ color: "red" }}>Step 2</p>
+                  <h5>Make a video and send Us</h5>
+                  <p>
+                    Upload Your Video and send us so we can review your
+                    qualifications
+                  </p>
+                </div>
+                <div>
+                  <p style={{ color: "red" }}>Step 3</p>
+                  <h5>Make a video and send Us</h5>
+                  <p>
+                    Upload Your Video and send us so we can review your
+                    qualifications
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <hr className="hrr" />
           <div className="faqContainer">
@@ -147,7 +148,7 @@ const Home = () => {
                     </a>
                   </h6>
                   {info1 && (
-                    <p style={{ color: "red" }} className="faqDesc">
+                    <p className="faqDesc">
                       This is super easy to make your first resume or cv by
                       using our website so fast and easy
                     </p>
@@ -165,7 +166,7 @@ const Home = () => {
                     </a>
                   </h6>
                   {info2 && (
-                    <p style={{ color: "red" }} className="faqDesc">
+                    <p className="faqDesc">
                       This is super easy to make your first resume or cv by
                       using our website so fast and easy
                     </p>
@@ -183,7 +184,7 @@ const Home = () => {
                     </a>
                   </h6>
                   {info3 && (
-                    <p style={{ color: "red" }} className="faqDesc">
+                    <p className="faqDesc">
                       This is super easy to make your first resume or cv by
                       using our website so fast and easy
                     </p>
@@ -201,7 +202,7 @@ const Home = () => {
                     </a>
                   </h6>
                   {info4 && (
-                    <p style={{ color: "red" }} className="faqDesc">
+                    <p className="faqDesc">
                       This is super easy to make your first resume or cv by
                       using our website so fast and easy
                     </p>

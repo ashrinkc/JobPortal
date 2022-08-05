@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import IndiJobs from "./IndiJobs";
 import { JobsData } from "./JobAvailableData";
@@ -17,8 +18,10 @@ const Jobs = () => {
             <button>Search</button>
           </div>
           <div className="indiJobDetails">{jData}</div>
+          <button className="jobBtn">Show More</button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

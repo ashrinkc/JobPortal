@@ -144,16 +144,23 @@
 
 .search{
     border-style: solid;
-    width: 9vw;
+    width: 6vw;
+    height: 4vh;
     border-radius: 2rem;
     border-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 1vh;
+}
+
+.search:hover{
+    background-color: red;
+    cursor: pointer;
 }
 
 .search>h5{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 .sData{
@@ -206,8 +213,8 @@
     justify-content: center;
     align-items: center;
     /* margin: 5vh 0; */
-    background-color:ghostwhite;
-    color: black;
+    background-color: rgb(24, 23, 23);
+   
     width: 100%;
     padding-top: 10vh;
 }

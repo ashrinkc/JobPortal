@@ -62,3 +62,12 @@
     margin-bottom: 10vh;
 }
 
+.jobBtn{
+    background-color: red;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    margin-bottom: 10vh;
+    border-radius: 0.5rem;
+}

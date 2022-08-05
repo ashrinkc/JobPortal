@@ -32,4 +32,19 @@ export const Searches = [
   {
     name: "Teacher",
   },
+  {
+    name: "Teacher",
+  },
+  {
+    name: "Teacher",
+  },
+  {
+    name: "Teacher",
+  },
+  {
+    name: "Teacher",
+  },
+  {
+    name: "Teacher",
+  },
 ];

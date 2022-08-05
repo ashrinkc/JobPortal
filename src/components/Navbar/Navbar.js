@@ -45,16 +45,16 @@ const Navbar = () => {
               <Link style={{ color: "white" }} to="/jobs">
                 <li className="items">Jobs</li>
               </Link>
-              <Link style={{ color: "white" }} to="/">
+              <Link style={{ color: "white" }} to="/recruitment">
                 <li className="items">Recruitment</li>
               </Link>
-              <Link style={{ color: "white" }} to="/">
+              <Link style={{ color: "white" }} to="/blog">
                 <li className="items">Blog</li>
               </Link>
-              <Link style={{ color: "white" }} to="/">
-                <li className="items">Advice Us</li>
+              <Link style={{ color: "white" }} to="/about">
+                <li className="items">About Us</li>
               </Link>
-              <Link style={{ color: "white" }} to="/">
+              <Link style={{ color: "white" }} to="/contact">
                 <li className="items">Contact</li>
               </Link>
             </div>

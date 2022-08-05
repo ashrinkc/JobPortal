@@ -1,0 +1,62 @@
+.aboutMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+background-color: rgb(24, 23, 23);
+    color: white;
+}
+
+.aboutContainer{
+    width: 90%;
+    margin-top: 10vh;
+}
+
+.inTeam>img{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 50rem;
+}
+
+.ourTeam {
+    display: flex;
+    gap: 10vh;
+    padding-bottom: 10vh;
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    width: 90vw;
+    padding: 10vh 0;
+    overflow: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.ourTeam::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.ourTeam {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+.ourTeamContainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 10vh;
+}
+
+
+.oTm>img {
+    width: 20vw;
+    height: 50vh;
+    border-radius: 0.5rem;
+}
+
+.oTm>p {
+    width: 20vw;
+}

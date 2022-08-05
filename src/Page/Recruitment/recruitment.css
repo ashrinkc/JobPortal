@@ -1,0 +1,43 @@
+.RecruitTop{
+    background-color: rgb(24, 23, 23);
+        color: white;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.recImg{
+    width: 90%;
+    margin: 5vh 0;
+}
+
+.recImg>img{
+    width: 85vw;
+    height: 60vh;
+}
+
+.recruitmentInfo{
+    background-color: rgb(31, 28, 28);
+        color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vw;
+}
+
+.recruitmentInfoTop{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.recruitmentInfoBottom{
+    width: 90%;
+    display: flex;
+    gap: 5vw;
+    margin: 5vh 0;
+}
