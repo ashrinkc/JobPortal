@@ -1,6 +1,4 @@
-.fullContact {
-    width: 1350px;
-}
+
 
 .tourImg {
     width: 1352px;
@@ -33,6 +31,8 @@
     align-items: center;
     justify-content: center;
     margin: 10vh 0;
+    width: 100%;
+    min-width: 475px;
 }
 
 .inputField {
@@ -86,4 +86,10 @@ input {
 .map{
     width: 80%;
     margin-top: 10vh;
+}
+
+@media only screen and (max-width: 980px) {
+    .mainContactContainer {
+        min-width: 700px;
+    }
 }

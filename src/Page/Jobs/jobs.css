@@ -6,11 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 475px;
    
 }
 
 .jobHead{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,4 +71,10 @@
     border: none;
     margin-bottom: 10vh;
     border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 980px) {
+    .jobsMain {
+        min-width: 700px;
+    }
 }

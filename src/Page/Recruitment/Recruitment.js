@@ -6,7 +6,7 @@ const Recruitment = () => {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className="mainRec">
         <div className="RecruitTop">
           <h1 style={{ color: "red" }}>JOIN US</h1>
         </div>

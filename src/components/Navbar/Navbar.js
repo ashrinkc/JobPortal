@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../Images/logo.png";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -33,7 +34,7 @@ const Navbar = () => {
             {/* company logo */}
             <a className="navitm">
               <div className="companyLogo">
-                {/* <img src="https://fanciful-starlight-a91a8b.netlify.app/static/media/logo.b8a824d1cf12c3cb8c0e.jpg" /> */}
+                <img src={logo} />
               </div>
             </a>
           </div>
@@ -52,7 +53,7 @@ const Navbar = () => {
                 <li className="items">Blog</li>
               </Link>
               <Link style={{ color: "white" }} to="/about">
-                <li className="items">About Us</li>
+                <li className="items">About</li>
               </Link>
               <Link style={{ color: "white" }} to="/contact">
                 <li className="items">Contact</li>

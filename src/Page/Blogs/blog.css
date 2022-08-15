@@ -23,13 +23,10 @@ background-color: rgb(24, 23, 23);
     align-items: center;
 }
 
-/* .blogContainer{
+.blogContainer{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+    min-width: 475px
+}
 
 
 .blogInfo {
@@ -83,4 +80,10 @@ background-color: rgb(24, 23, 23);
     color: white;
     border: none;
     border-radius: 2rem;
+}
+
+@media only screen and (max-width: 980px) {
+    .blogContainer{
+        min-width: 700px;
+    }
 }

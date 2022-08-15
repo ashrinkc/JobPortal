@@ -1,3 +1,4 @@
+
 .RecruitTop{
     background-color: rgb(24, 23, 23);
         color: white;
@@ -6,6 +7,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+            
+}
+
+.mainRec{
+    width: 100%;
+        min-width: 475px;
+        height: auto;
 }
 
 .recImg{
@@ -40,4 +48,10 @@
     display: flex;
     gap: 5vw;
     margin: 5vh 0;
+}
+
+@media only screen and (max-width: 980px) {
+    .mainRec{
+        min-width: 700px;
+    }
 }

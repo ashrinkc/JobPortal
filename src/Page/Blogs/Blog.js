@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
+import { useDispatch, useSelector } from "react-redux";
 import "./blog.css";
+import { getAllBlogs } from "../../redux/apiCalls";
+import { getBlogsFailure } from "../../redux/blogReducer";
 const Blog = () => {
   const [show, setShow] = useState(null);
   const [title, setTitle] = useState("Show More");
@@ -14,6 +17,29 @@ const Blog = () => {
       setTitle("Show Less");
     }
   };
+
+  const dispatch = useDispatch();
+  const blogs = useSelector((state) => state.blog.blogs);
+  //get all blogs
+  const [isLoading, setLoading] = useState(true);
+  useEffect(() => {
+    setLoading(true);
+    getAllBlogs(dispatch);
+    setLoading(false);
+  }, [dispatch]);
+
+  //we start with an empty list of items
+  const [currentItems, setCurrentItems] = useState([]);
+  const [pageCount, setPageCount] = useState(0);
+  const [itemOffset, setItemOffset] = useState(0);
+  const itemPerPage = 8;
+
+  useEffect(() => {
+    //fetch items from another resouces
+    const endOffSet = itemOffset + itemPerPage;
+    setCurrentItems(blogs.slice(itemOffset, endOffSet));
+    setPageCount(Math.ceil(blogs.length / itemPerPage));
+  }, [itemOffset, blogs]);
   return (
     <div>
       <Navbar />
@@ -23,6 +49,31 @@ const Blog = () => {
           {/* <h5>Get a job and not be jobless</h5> */}
         </div>
         <div className="mainBlogInfo">
+          {blogs.map((item, id) => (
+            <div className="blogInfo">
+              <img src={item.img} />
+              <div>
+                <h5>{item.title}</h5>
+                <h1>{item.desc}</h1>
+                <div className="blogBtn">
+                  <button>
+                    <img src="http://richardreina.com/wp-content/uploads/2015/05/twitter-logo-black-and-white-2.jpg" />
+                  </button>
+                  <button>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Facebook%2BIcon%2BBlack.png" />
+                  </button>
+                  <button>
+                    <img src="https://www.nicepng.com/png/detail/393-3936850_instagram-pure-comments-instagram-logo-black-jpg.png" />
+                  </button>
+                </div>
+                <small>12 min read</small>
+                <h5>Read More</h5>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* <div className="mainBlogInfo">
           <div className="blogInfo">
             <img src="https://img.freepik.com/free-vector/colorful-creepy-creatures-illustration-background_516247-10.jpg?w=2000" />
             <div>
@@ -170,7 +221,7 @@ const Blog = () => {
           <div className="showMoreBtnBlog">
             <button onClick={showMore}>{title}</button>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <Footer />

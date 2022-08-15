@@ -10,21 +10,27 @@
 .talent{
     background-color: ghostwhite;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .talentIn{
-    background-color: rgb(24, 23, 23);
+    background-color:rgb(207, 13, 13);
     /* margin-bottom: -20vh; */
     width: 90%;
-    height: 60vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
+    
+}
+
+.bussinessWoman>img{
+    height: 79vh;
+    padding-bottom: 14.5vh;
 }
 
 .talentInfo{
@@ -35,8 +41,8 @@
 }
 
 .talentInfo>button{
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 0.5rem;
     width: 10vw;
     height: 5vh;
@@ -48,7 +54,7 @@
     margin-top: 10vh;
 } */
 .homeImg>img{
-    height: 50vh;
+    height: 80vh;
 }
 
 .availableJobs{
@@ -82,7 +88,7 @@
 
 .homeInfo>button{
     border: none;
-    background-color: red;
+    background-color: rgb(202, 17, 17);
     color: white;
     width: 15vw;
     height: 5vh;
@@ -97,6 +103,7 @@
     justify-content: center;
     background-color: rgb(24, 23, 23);
     color: white;
+    min-width: 475px
 }
 
 
@@ -128,17 +135,21 @@
 }
 
 .dreamJob>button{
-    background-color: red;
+    background-color: rgb(207, 13, 13);
     color: white;
     border: none;
     width: 10vw;
     height: 6vh;
-    border-radius: 0.5rem;
+border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .dreamJob>input{
     width: 40vw;
     height: 6vh;
+    border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border: none;
 }
 
 
@@ -304,4 +315,18 @@
 
 button:hover{
     cursor: pointer;
+}
+
+.homeCom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 980px) {
+    .homeContainer {
+        min-width: 700px;
+    }
 }

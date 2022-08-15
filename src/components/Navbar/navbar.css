@@ -10,6 +10,7 @@
     align-items: center;
 background-color: rgb(24, 23, 23);
     color: white;
+    min-width: 475px
 }
 
 .container{
@@ -54,7 +55,13 @@ li{
     height: 5vh;
 }
 
+@media only screen and (max-width: 980px) {
+    .navb{
+        min-width: 700px;
+    }
+}
 
+/* 
 @media screen and (max-width: 500px) {
     .navITEMS {
         margin-top: 80vh;
@@ -81,4 +88,4 @@ li{
     .btn {
         display: block;
     }
-}
+} */

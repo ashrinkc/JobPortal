@@ -7,6 +7,8 @@ import { Searches } from "./TopSearchesData";
 import handy from "../../Images/handyFolder.gif";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+import human from "../../Images/human.png";
+import woman from "../../Images/businesswoman.png";
 const Home = () => {
   const [info1, setInfo1] = useState(null);
   const [info2, setInfo2] = useState(null);
@@ -19,7 +21,7 @@ const Home = () => {
     return <TopSearches item={items} />;
   });
   return (
-    <>
+    <div>
       <Navbar />
       <div className="homeContainer">
         <div className="homeContent">
@@ -32,10 +34,11 @@ const Home = () => {
             <button>Contact Us</button>
           </div>
           <div className="homeImg">
-            <img src="https://www.icegif.com/wp-content/uploads/reading-icegif-16.gif" />
+            {/* <img src="https://www.icegif.com/wp-content/uploads/reading-icegif-16.gif" /> */}
+            <img src={human} />
           </div>
         </div>
-        <hr className="hrr" />
+        {/* <hr className="hrr" /> */}
         <div className="topSearch">
           <div className="dreamJob">
             <input placeholder="find your dream job" />
@@ -56,7 +59,9 @@ const Home = () => {
               <h3>Find the talent needed to get your business started</h3>
               <button>Get Started</button>
             </div>
-            <div></div>
+            <div className="bussinessWoman">
+              <img src={woman} />
+            </div>
           </div>
         </div>
         <div className="chooseUs">
@@ -214,7 +219,7 @@ const Home = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
