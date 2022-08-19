@@ -25,7 +25,7 @@ export const getAllBlogs = async (dispatch) => {
   dispatch(getBlogsStart());
   try {
     const res = await axios.get("http://localhost:5000/api/v1/blog/allBlog");
-    console.log(res);
+    // console.log(res);
     dispatch(getBlogsSuccess(res.data));
   } catch (error) {
     dispatch(getBlogsFailure());
@@ -35,7 +35,9 @@ export const getAllBlogs = async (dispatch) => {
 
 //get all jobs
 export const getAllJobs = async (dispatch) => {
+  console.log("jobs");
   dispatch(getJobsStart());
+  console.log("kkk");
   try {
     const res = await axios.get("http://localhost:5000/api/v1/jobs/allJobs");
     console.log(res);

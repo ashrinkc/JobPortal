@@ -30,7 +30,7 @@ const Contact = () => {
               <h5>Address</h5>
               <input className="msgInput" />
               <h5>Message</h5>
-              <textarea rows="5" cols="52" />
+              <textarea rows="5" cols="65" />
               <div className="contactBtnContainer">
                 <button className="contactSubmitbtn">Submit</button>
               </div>

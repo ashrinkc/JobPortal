@@ -31,8 +31,7 @@
     align-items: center;
     justify-content: center;
     margin: 10vh 0;
-    width: 100%;
-    min-width: 475px;
+    width: 1350px;
 }
 
 .inputField {
@@ -91,5 +90,23 @@ input {
 @media only screen and (max-width: 980px) {
     .mainContactContainer {
         min-width: 700px;
+    }
+    .inputField{
+        width: 100vw;
+        
+    }
+       
+    h5{
+        font-size: 35px;
+    }
+    
+    
+    .contactContainer{
+        /* width: 90%; */
+        flex-direction: column;
+    }
+    .contactItem{
+        width: 100%;
+        font-size: 40px;
     }
 }

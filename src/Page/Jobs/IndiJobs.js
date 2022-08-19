@@ -4,7 +4,7 @@ const IndiJobs = (props) => {
   return (
     <div className="indiJobs">
       <div className="insideJobs">
-        <h4>{props.item.name}</h4>
+        <h4>{props.item.title}</h4>
         <small>{props.item.desc}</small>
       </div>
     </div>

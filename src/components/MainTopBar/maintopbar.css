@@ -1,0 +1,34 @@
+.socialImg>div>img{
+    height: 4vh;
+}
+
+.socialImg{
+    display: flex;
+    gap: 3vw;
+}
+
+.topBarInfo{
+    display: flex;
+    gap: 30vw;
+}
+
+.conInfo{
+    display: flex;
+    gap: 3vw;
+}
+
+.topBarContainer{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 8vh;
+    width: 1350px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .topBarContainer {
+        min-width: 1000px;
+    }
+}

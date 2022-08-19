@@ -1,5 +1,9 @@
+/* * {
+    font-family: 'Red Hat Display',
+        sans-serif;
+} */
 .jobsMain{
-    width: 100%;
+    width: 1350px;
     /* background-color: rgb(24, 23, 23);
     color: white; */
     display: flex;
@@ -74,7 +78,17 @@
 }
 
 @media only screen and (max-width: 980px) {
-    .jobsMain {
-        min-width: 700px;
+    .indiJobDetails{
+        width: 60%;
+    }
+    .indiJobs{
+        width: 90%;
+        font-size: 30px;
+    }
+    .insideJobs{
+        width: 80%;
+    }
+    .jobBtn{
+        width: 20%;
     }
 }

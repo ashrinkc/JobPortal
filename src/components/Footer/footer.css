@@ -6,9 +6,11 @@
     color: white;
     font-size: 0.8rem;
     gap: 15vh;
-    width: 100%;
-    min-width: 475px;
+    
+    width: 1350px;
+    
 }
+
 
 .footerInfo{
     width: 30vw;
@@ -20,18 +22,28 @@
 }
 
 .footerIn{
-    width: 90%;
+    width: 100%;
     display: flex;
         background-color: rgb(17, 17, 17);
+        /* background-color: white; */
         justify-content: center;
         padding: 5vh 0;
         color: white;
         font-size: 0.8rem;
         gap: 15vh;
+        
 }
 
 @media only screen and (max-width: 980px) {
     .footerContainer {
-        min-width: 700px;
+        min-width: 900px;
+    }
+    .footerInfo{
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .footerIn{
+        font-size: 20px;
     }
 }

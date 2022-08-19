@@ -29,17 +29,17 @@ const Blog = () => {
   }, [dispatch]);
 
   //we start with an empty list of items
-  const [currentItems, setCurrentItems] = useState([]);
-  const [pageCount, setPageCount] = useState(0);
-  const [itemOffset, setItemOffset] = useState(0);
-  const itemPerPage = 8;
+  // const [currentItems, setCurrentItems] = useState([]);
+  // const [pageCount, setPageCount] = useState(0);
+  // const [itemOffset, setItemOffset] = useState(0);
+  // const itemPerPage = 8;
 
-  useEffect(() => {
-    //fetch items from another resouces
-    const endOffSet = itemOffset + itemPerPage;
-    setCurrentItems(blogs.slice(itemOffset, endOffSet));
-    setPageCount(Math.ceil(blogs.length / itemPerPage));
-  }, [itemOffset, blogs]);
+  // useEffect(() => {
+  //   //fetch items from another resouces
+  //   const endOffSet = itemOffset + itemPerPage;
+  //   setCurrentItems(blogs.slice(itemOffset, endOffSet));
+  //   setPageCount(Math.ceil(blogs.length / itemPerPage));
+  // }, [itemOffset, blogs]);
   return (
     <div>
       <Navbar />
