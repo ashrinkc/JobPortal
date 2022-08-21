@@ -24,7 +24,8 @@ background-color: rgb(24, 23, 23);
 }
 
 .blogContainer{
-    width: 1350px;
+    /* width: 1350px; */
+    width: 100%;
 }
 
 
@@ -83,7 +84,7 @@ background-color: rgb(24, 23, 23);
 
 @media only screen and (max-width: 980px) {
     .blogContainer{
-        min-width: 700px;
+        width: 85rem;
     }
     .mainBlogInfo{
         width: 100%;

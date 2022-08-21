@@ -4,7 +4,7 @@ const SearchBar = () => {
   return (
     <div>
       <div className="dreamJob">
-        <input placeholder="find your dream job" />
+        <input placeholder="Find your dream job" />
         <button>Search</button>
       </div>
     </div>

@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1350px;
+    /* width: 1350px; */
+    width: 100%;
 }
 
 .bottomBar>h3{
@@ -14,6 +15,6 @@
 
 @media only screen and (max-width: 980px) {
     .bottomBar {
-        min-width: 900px;
+        width: 85rem;
     }
 }

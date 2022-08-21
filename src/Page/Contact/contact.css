@@ -31,7 +31,8 @@
     align-items: center;
     justify-content: center;
     margin: 10vh 0;
-    width: 1350px;
+    /* width: 1350px; */
+    width: 100%;
 }
 
 .inputField {
@@ -89,7 +90,7 @@ input {
 
 @media only screen and (max-width: 980px) {
     .mainContactContainer {
-        min-width: 700px;
+        width: 85rem;
     }
     .inputField{
         width: 100vw;

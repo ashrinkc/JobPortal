@@ -1,5 +1,6 @@
 .navb {
-    width: 1350px;
+    width: 100%;
+    
     box-shadow: 0px 6px 13px -1px rgba(0, 0, 0, 0.14);
     /* top: 4vh; */
     /* z-index: 999; */
@@ -59,7 +60,7 @@ li{
 
 @media only screen and (max-width: 980px) {
     .navb{
-        min-width: 900px;
+        width: 85rem;
     }
     li{
         font-size: 1.5rem;

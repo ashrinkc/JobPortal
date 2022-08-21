@@ -24,7 +24,9 @@ export const getUserAdmin = async (dispatch) => {
 export const getAllBlogs = async (dispatch) => {
   dispatch(getBlogsStart());
   try {
-    const res = await axios.get("http://localhost:5000/api/v1/blog/allBlog");
+    const res = await axios.get(
+      "https://multi-agency.herokuapp.com/api/v1/blog/allBlog"
+    );
     // console.log(res);
     dispatch(getBlogsSuccess(res.data));
   } catch (error) {
@@ -39,7 +41,9 @@ export const getAllJobs = async (dispatch) => {
   dispatch(getJobsStart());
   console.log("kkk");
   try {
-    const res = await axios.get("http://localhost:5000/api/v1/jobs/allJobs");
+    const res = await axios.get(
+      "https://multi-agency.herokuapp.com/api/v1/jobs/allJobs"
+    );
     console.log(res);
     dispatch(getJobsSuccess(res.data));
   } catch (error) {

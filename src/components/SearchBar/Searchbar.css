@@ -20,7 +20,10 @@
     height: 6vh;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    border: none;
+    /* border: none; */
+    border-style:solid;
+    border-color: rgb(24, 23, 23);
+    
 }
 
 @media only screen and (max-width: 980px){

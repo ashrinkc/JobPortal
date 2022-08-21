@@ -6,7 +6,8 @@
     /* width: 100%; */
 background-color: rgb(24, 23, 23);
     color: white;
-    width: 1350px;
+    /* width: 1350px; */
+    width: 100%;
 }
 
 .aboutContainer{
@@ -125,7 +126,7 @@ background-color: rgb(24, 23, 23);
 @media only screen and (max-width: 980px) {
     .aboutMain {
         /* min-width: 700px; */
-        width: 1350px;
+        width: 85rem;
         font-size: 30px;
     }
     .galleryGrid{

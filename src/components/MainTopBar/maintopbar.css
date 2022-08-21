@@ -24,11 +24,12 @@
     align-items: center;
     color: white;
     height: 8vh;
-    width: 1350px;
+    /* width: 1350px; */
+    width: 100%;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 980px) {
     .topBarContainer {
-        min-width: 1000px;
+        width: 85rem;
     }
 }

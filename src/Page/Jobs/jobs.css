@@ -3,7 +3,8 @@
         sans-serif;
 } */
 .jobsMain{
-    width: 1350px;
+    /* width: 1350px; */
+    width: 100%;
     /* background-color: rgb(24, 23, 23);
     color: white; */
     display: flex;
@@ -78,6 +79,9 @@
 }
 
 @media only screen and (max-width: 980px) {
+    .jobsMain{
+        width: 85rem;
+    }
     .indiJobDetails{
         width: 60%;
     }

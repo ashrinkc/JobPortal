@@ -235,7 +235,9 @@
     justify-content: center;
     background-color: rgb(24, 23, 23);
     color: white;
-    width: 1350px;
+    /* width: 1350px; */
+    /* width: 100%; */
+    width: 100%;
 }
 
 
@@ -482,6 +484,9 @@ button:hover{
 }
 
 @media only screen and (max-width: 980px) {
+    .homeContainer{
+        width: 85rem;
+    }
     .homeContent {
         display: flex;
         flex-direction: column;
