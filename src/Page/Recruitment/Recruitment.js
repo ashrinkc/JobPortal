@@ -8,7 +8,7 @@ const Recruitment = () => {
       <Navbar />
       <div className="mainRec">
         <div className="RecruitTop">
-          <h1 style={{ color: "red" }}>JOIN US</h1>
+          <h1>JOIN US</h1>
         </div>
 
         <div className="recruitmentInfo">

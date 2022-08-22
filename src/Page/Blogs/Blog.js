@@ -66,6 +66,7 @@ const Blog = () => {
                     <img src="https://www.nicepng.com/png/detail/393-3936850_instagram-pure-comments-instagram-logo-black-jpg.png" />
                   </button>
                 </div>
+
                 <small>12 min read</small>
                 <h5>Read More</h5>
               </div>

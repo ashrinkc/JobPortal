@@ -133,13 +133,13 @@ background-color: rgb(24, 23, 23);
     .aboutMain {
         /* min-width: 700px; */
         /* width: 85rem; */
-        font-size: 30px;
+        /* font-size: 30px; */
     }
     .aboutContainer>h3{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .gallery>h2{
-        font-size: 3rem;
+        font-size: 1.5rem;
         padding-bottom: 2vh;
     }
     .galleryGrid{
@@ -174,7 +174,7 @@ background-color: rgb(24, 23, 23);
         width: 90%;
     }
     .ourTeamContainer>h3{
-        font-size: 3rem;
+        font-size: 1.5rem;
         padding-bottom: 2vh;
     }
     .ourTeam{

@@ -82,7 +82,9 @@ li{
 @media only screen and (max-width: 980px) {
     .navMar{
         
-        padding-left: 0px;
+        padding-left: 0;
+        /* justify-content: center; */
+        align-items: center;
     }
     .navbb{
         /* width: 85rem; */

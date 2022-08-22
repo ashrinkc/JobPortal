@@ -10,6 +10,12 @@
             
 }
 
+.RecruitTop>h1 {
+    color: white;
+    /* font-family: "Great Vibes", cursive; */
+    font-size: 10vh;
+}
+
 .mainRec{
     /* width: 1350px; */
     width: 100%;
@@ -53,10 +59,10 @@
 @media only screen and (max-width: 980px) {
     .mainRec{
         /* width: 85rem; */
-        font-size: 30px;
+        /* font-size: 30px; */
     }
     .recruitmentInfoBottom>div>h5{
-        font-size: 35px;
+        /* font-size: 35px; */
     }
     .recImg>img{
         width: 100%;

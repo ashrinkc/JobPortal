@@ -37,6 +37,7 @@
 @media only screen and (max-width: 980px){
     .dreamJob>button{
         width: 30%;
+        font-size: 10px;
     }
         .dreamJob>input{
             /* width: 100%; */

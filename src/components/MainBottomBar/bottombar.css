@@ -10,11 +10,15 @@
 
 .bottomBar>h3{
     color: white;
-    font-size: 0.5cm;
+    font-size: 1.3rem;
 }
 
 @media only screen and (max-width: 980px) {
     .bottomBar {
+        height: 5vh;
         /* width: 85rem; */
     }
+        .bottomBar>h3{
+            font-size: 0.7rem ;
+        }
 }

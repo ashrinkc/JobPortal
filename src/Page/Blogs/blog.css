@@ -38,7 +38,7 @@ background-color: rgb(24, 23, 23);
 
 .blogInfo>div {
     width: 45vw;
-    font-size: 3vh;
+    font-size: 2rem;
 }
 
 .blogInfo>div:hover {
@@ -55,7 +55,7 @@ background-color: rgb(24, 23, 23);
 .blogBtn {
     display: flex;
     gap: 5vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 .blogBtn>button>img {
@@ -92,17 +92,27 @@ background-color: rgb(24, 23, 23);
     .blogInfo{
         width: 90%;
         flex-direction: column;
-        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        /* font-size: 1rem; */
     }
+    .blogInfo>div>h5{
+        font-size: 1rem;
+    }
+        .blogInfo>div>h1 {
+            font-size: 1.5rem;
+        }
     .blogInfo>img{
-        width: 90%;
+        width: 100%;
+        height: auto;
     }
     .blogInfo>div{width: 100%;}
     .blogBtn>button{
-        width: 10%;
+        width: 15%;
     }
     .blogBtn>button>img{
         width: 100%;
+        height: auto;
     }
     .showMoreBtnBlog>button{
         width: 100%;
