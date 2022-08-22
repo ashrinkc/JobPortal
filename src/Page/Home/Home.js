@@ -13,6 +13,8 @@ import woman from "../../Images/businesswoman.png";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import MainTopBar from "../../components/MainTopBar/MainTopBar";
 import { useNavigate } from "react-router-dom";
+import delhi from "../../Images/delhi.jpg";
+import pland from "../../Images/pLandMark.jpg";
 const Home = () => {
   const [info1, setInfo1] = useState(null);
   const [info2, setInfo2] = useState(null);
@@ -220,15 +222,49 @@ const Home = () => {
             </div>
           </div>
           <hr className="hrr" /> */}
-
-          <div className="faqContainer">
-            {/* <div className="faqInfoone">
-              <small style={{ color: "red" }}>KNOW YOUR ANSWER</small>
-              <h2>FAQ</h2>
-            </div> */}
+          <div className="careerTipsContainer">
+            <div>
+              <h1>Quick career tips</h1>
+              <div className="careerTop">
+                <h5>Some Blogs to help you.</h5>
+              </div>
+            </div>
+            <div className="careerBlogs">
+              <div className="careerInfo">
+                <img src={delhi} />
+                <div>
+                  <h6>How to apply for Embassy in Delhi?</h6>
+                  <small>
+                    Now you can apply for Working Visa from India & Nepal.{" "}
+                  </small>
+                </div>
+              </div>
+              <div className="careerInfo">
+                <img src={pland} />
+                <div>
+                  <h6>How to apply for Embassy in Delhi?</h6>
+                  <small>
+                    Now you can apply for Working Visa from India & Nepal.{" "}
+                  </small>
+                </div>
+              </div>
+              <div className="careerInfo">
+                <img src={delhi} />
+                <div>
+                  <h6>How to apply for Embassy in Delhi?</h6>
+                  <small>
+                    Now you can apply for Working Visa from India & Nepal.{" "}
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div className="careerViewAll">
+              <h6 onClick={() => navigate("/blog")}>View More</h6>
+            </div>
+          </div>
+          {/* <div className="faqContainer">
             <div className="faq">
               <div>
-                {/* <img src="https://media2.giphy.com/media/xTiN0IuPQxRqzxodZm/giphy.gif" /> */}
                 <img src={woman} />
               </div>
               <div className="faqInfo">
@@ -312,7 +348,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />

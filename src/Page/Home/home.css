@@ -135,7 +135,65 @@
     font-weight: 700;
 }
 
+.careerTop>h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
 
+.careerTipsContainer{
+    margin-top: 5vh;
+}
+
+.careerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.careerInfo>div>h6{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.careerInfo>div>small{
+    color: gainsboro;
+}
+
+.careerTipsContainer>div>h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.careerBlogs{
+    display: flex;
+    gap: 10vh;
+    margin-top: 5vh;
+}
+
+.careerTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 5vh; */
+}
+
+.careerBlogs>div>img{
+    height: 50vh;
+    /* height: auto; */
+    width: 25vw;
+    border-radius: 1rem;
+}
+
+/* .careerTop>h5>a{
+    margin-left: 50vh;
+} */
+
+.careerTipsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .taskInfo>div>small{
     /* font-family: 'Red Hat Display',
@@ -495,6 +553,12 @@ button:hover{
     align-items: center;
 }
 
+.careerViewAll{
+    margin-top: 5vh;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 980px) {
     .homeContainer{
         /* width: 85rem; */
@@ -625,4 +689,17 @@ button:hover{
                 .tasks{
                     /* gap: 0vw; */
                 }
+                .careerBlogs{
+                    flex-direction: column;
+                }
+                /* .careerInfo>img{
+                    width: 100vw;
+                    height: auto;
+                } */
+                                .careerBlogs>div>img{
+                                    width: 100%;
+                                }
+                                .careerTipsContainer>div>h1{
+                                    font-size: 2rem;
+                                }
 }
