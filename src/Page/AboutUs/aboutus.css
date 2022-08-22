@@ -135,8 +135,16 @@ background-color: rgb(24, 23, 23);
         /* width: 85rem; */
         font-size: 30px;
     }
+    .aboutContainer>h3{
+        font-size: 3rem;
+    }
+    .gallery>h2{
+        font-size: 3rem;
+        padding-bottom: 2vh;
+    }
     .galleryGrid{
-        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     .item1{
         width: 100%;
@@ -165,12 +173,19 @@ background-color: rgb(24, 23, 23);
     .ourTeamContainer{
         width: 90%;
     }
+    .ourTeamContainer>h3{
+        font-size: 3rem;
+        padding-bottom: 2vh;
+    }
     .ourTeam{
         width: 100%;
     }
     .oTm>img{
         width: 100%;
     }
+        .ourTeam{
+            flex-direction: column;
+        }
     /* .aboutContainer{
         width: 100%;
     } */
