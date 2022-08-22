@@ -93,7 +93,7 @@ const Home = () => {
             <div className="talentInfo">
               <h3>Apply directly from</h3>
               <a>India & Nepal.</a>
-              <button onClick={() => navigate("/about")}>Get Started</button>
+              <button onClick={() => navigate("/about")}>Apply Now</button>
             </div>
             <div className="bussinessWoman">
               <img src={woman} />
@@ -131,7 +131,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="tasks">
+              <div className="tasks mobTask">
                 <div className="tasknum">
                   <div>2</div>
                   <div>4</div>
@@ -234,7 +234,9 @@ const Home = () => {
               <div className="faqInfo">
                 <div>
                   <div className="faqInfoone">
-                    <small style={{ color: "red" }}>KNOW YOUR ANSWER</small>
+                    <small style={{ color: "rgb(236,27,52)" }}>
+                      KNOW YOUR ANSWER
+                    </small>
                     <h2>FAQ</h2>
                   </div>
                   <h6>

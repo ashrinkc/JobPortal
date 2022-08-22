@@ -20,21 +20,21 @@ const Footer = () => {
             <h5>Contact: 0000000</h5>
             <h5>Email: example@gmail.com</h5>
           </div>
-          <div>
+          <div className="linkMob">
             <h3>Quick Links</h3>
             <p> Footer Link here</p>
             <p> Footer Link here</p>
             <p> Footer Link here</p>
             <p> Footer Link here</p>
           </div>
-          <div>
+          <div className="linkMob">
             <h3>Quick Links</h3>
             <p> Footer Link here</p>
             <p> Footer Link here</p>
             <p> Footer Link here</p>
             <p> Footer Link here</p>
           </div>
-          <div>
+          <div className="linkMob">
             <h3>Quick Links</h3>
             <p> Footer Link here</p>
             <p> Footer Link here</p>

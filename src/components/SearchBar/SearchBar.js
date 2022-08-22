@@ -2,7 +2,7 @@ import React from "react";
 import "./Searchbar.css";
 const SearchBar = () => {
   return (
-    <div>
+    <div className="mainDreamJob">
       <div className="dreamJob">
         <input placeholder="Find your dream job" />
         <button>Search</button>

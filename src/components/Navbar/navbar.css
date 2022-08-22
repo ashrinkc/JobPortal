@@ -5,7 +5,7 @@
     /* top: 4vh; */
     /* z-index: 999; */
     height: 15vh;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,14 +57,38 @@ li{
     width: 20vw;
     height: 5vh;
 }
+.navbb{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    width: 100%;
+}
 
+.navMar{
+    padding-left: 13vh;
+}
+
+
+.navItems{
+    padding-left: 5px;
+        padding-right: 5px;
+}
+
+
+.BrandLogo{
+    height: 15vh;
+    margin-left: -1vw;
+        cursor: pointer;
+}
 @media only screen and (max-width: 980px) {
-    .navb{
-        width: 85rem;
+    .navbb{
+        /* width: 85rem; */
     }
-    li{
+    .BrandLogo{
+        height: 10vh;
+    }
+    /* li{
         font-size: 1.5rem;
-    }
+    } */
 }
 
 /* 

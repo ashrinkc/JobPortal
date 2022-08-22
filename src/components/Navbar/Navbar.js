@@ -1,10 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./navbar.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../Images/logo.png";
 import MainTopBar from "../MainTopBar/MainTopBar";
+import BasicExample from "../Bnavbar/bnavbar";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -27,20 +28,21 @@ const Navbar = () => {
   //     window.removeEventListener("resize", changeWidth);
   //   };
   // }, []);
+  const navigate = useNavigate();
   return (
     <>
       <MainTopBar />
-      <nav className="navb">
+      <BasicExample />
+      {/* <nav className="navb">
         <div className="container">
           <div>
-            {/* company logo */}
             <a className="navitm">
               <div className="companyLogo">
-                <img src={logo} />
+                <img onClick={() => navigate("/")} src={logo} />
               </div>
             </a>
           </div>
-          {/* {(toggleMenu || screenWidth > 500) && ( */}
+          
           <div className="navITEMS">
             <Link style={{ color: "white" }} to="/">
               <li className="items">HOME</li>
@@ -61,12 +63,8 @@ const Navbar = () => {
               <li className="items">CONTACT</li>
             </Link>
           </div>
-          {/* )} */}
-          {/* <button className="btn" onClick={toggleNav}>
-            <p></p>
-          </button> */}
         </div>
-      </nav>
+      </nav> */}
     </>
   );
 };

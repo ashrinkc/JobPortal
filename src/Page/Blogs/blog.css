@@ -84,22 +84,22 @@ background-color: rgb(24, 23, 23);
 
 @media only screen and (max-width: 980px) {
     .blogContainer{
-        width: 85rem;
+        /* width: 85rem; */
     }
     .mainBlogInfo{
-        width: 100%;
+        /* width: 100%; */
     }
     .blogInfo{
-        /* width: 90%; */
+        width: 90%;
         flex-direction: column;
         font-size: 30px;
     }
     .blogInfo>img{
-        width: 100%;
+        width: 90%;
     }
     .blogInfo>div{width: 100%;}
     .blogBtn>button{
-        width: 5%;
+        width: 10%;
     }
     .blogBtn>button>img{
         width: 100%;

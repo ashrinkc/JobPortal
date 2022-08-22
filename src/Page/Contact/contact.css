@@ -23,6 +23,7 @@
     /* align-items: center; */
     gap: 10vw;
     justify-content: center;
+    align-items: center;
 }
 
 .mainContactContainer {
@@ -90,15 +91,27 @@ input {
 
 @media only screen and (max-width: 980px) {
     .mainContactContainer {
-        width: 85rem;
+        /* width: 85rem; */
     }
     .inputField{
-        width: 100vw;
+        /* width: 100vw; */
+        flex-direction: column;
         
+    }
+    .contactItem{
+        width: 50vw;
+    }
+
+    .contactConInfo{
+        /* margin-left: 20vh; */
+    }
+
+    .BigMsg{
+        display: none;
     }
        
     h5{
-        font-size: 35px;
+        /* font-size: 35px; */
     }
     
     
@@ -107,7 +120,7 @@ input {
         flex-direction: column;
     }
     .contactItem{
-        width: 100%;
-        font-size: 40px;
+        /* width: 100%; */
+        /* font-size: 40px; */
     }
 }

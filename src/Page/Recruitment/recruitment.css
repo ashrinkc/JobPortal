@@ -52,7 +52,7 @@
 
 @media only screen and (max-width: 980px) {
     .mainRec{
-        width: 85rem;
+        /* width: 85rem; */
         font-size: 30px;
     }
     .recruitmentInfoBottom>div>h5{

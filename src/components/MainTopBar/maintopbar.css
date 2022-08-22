@@ -5,20 +5,26 @@
 .socialImg{
     display: flex;
     gap: 3vw;
+    cursor: pointer;
 }
 
 .topBarInfo{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
     gap: 30vw;
+    width: 100%;
 }
 
 .conInfo{
     display: flex;
     gap: 3vw;
+    font-size: 0.8rem;
 }
 
 .topBarContainer{
-    background-color: crimson;
+    background-color: rgb(236, 27, 52);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +35,21 @@
 }
 
 @media only screen and (max-width: 980px) {
-    .topBarContainer {
-        width: 85rem;
+    .topBarInfo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+        /* gap:5vw */
+        /* width: 100%; */
     }
+    .conInfo{
+        font-size: 10px;
+    }
+    .socialImg>div>img{
+        height: 20px;
+    }
+    /* .conInfo{
+        width:30% ;
+    } */
 }

@@ -3,10 +3,18 @@
     gap: 1vw;
     justify-content: center;
     align-items: center;
+    width: 90%;
+}
+
+.mainDreamJob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }
 
 .dreamJob>button {
-    background-color: rgb(207, 13, 13);
+    background-color: rgb(236, 27, 52);
     color: white;
     border: none;
     width: 10vw;
@@ -31,6 +39,6 @@
         width: 50%;
     }
         .dreamJob>input{
-            width: 100vw;
+            width: 100%;
         }
 }

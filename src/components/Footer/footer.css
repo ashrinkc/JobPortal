@@ -2,11 +2,11 @@
     display: flex;
     background-color: rgb(17, 17, 17);
     justify-content: center;
-    padding: 5vh 0;
+    /* padding: 5vh 0; */
     color: white;
     font-size: 0.8rem;
     gap: 15vh;
-    
+    align-items: center;
     /* width: 1350px; */
     width: 100%;
     
@@ -14,7 +14,7 @@
 
 
 .footerInfo{
-    width: 30vw;
+    width: 30%;
 }
 
 .footerInfo>h2{
@@ -23,7 +23,7 @@
 }
 
 .footerIn{
-    width: 100%;
+    width: 90%;
     display: flex;
         background-color: rgb(17, 17, 17);
         /* background-color: white; */
@@ -37,14 +37,23 @@
 
 @media only screen and (max-width: 980px) {
     .footerContainer{
-        width: 85rem;
+        /* width: 85rem; */
+        /* font-size: 10px; */
+        
     }
+        .footerInfo>h5{
+            font-size: 1rem;
+        }
     .footerInfo{
-        width: 30%;
-        font-size: 20px;
+        width: 90%;
+        /* font-size: rem; */
     }
 
     .footerIn{
-        font-size: 20px;
+        /* font-size: 20px; */
+        flex-direction: column;
+    }
+    .linkMob{
+        display: none;
     }
 }

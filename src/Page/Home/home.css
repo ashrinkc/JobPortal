@@ -8,6 +8,8 @@
     font-family: 'Poppins',
         sans-serif;
         font-size: 1rem;
+        line-height: 4vh;
+        font-weight: 500;
 }
 
 .viewJobs{
@@ -18,11 +20,13 @@
 .homeInfo>h1{
     font-family: 'Red Hat Display',
         sans-serif;
-    font-size: 1cm;
+    font-size: 3rem;
+   
 }
 .homeInfo>h1>a {
-    font-family: fantasy;
-    font-size: 1.5cm;
+    /* font-family: fantasy; */
+    font-size: 4rem;
+    font-weight: 900;
 }
 .homeContent{
     display: flex;
@@ -43,7 +47,7 @@
 }
 
 .talentIn{
-    background-color:#d62727;
+    background-color:rgb(236, 27, 52);
     /* margin-bottom: -20vh; */
     width: 90%;
     height: 50vh;
@@ -60,7 +64,7 @@
     justify-content: center;
     align-items: center;
     margin: 5vh 0 ;
-    width: 100%;
+    width: 80%;
 }
 
 .mainSupCom>h1{
@@ -76,18 +80,19 @@
     align-items: center;
     gap: 7vw;
     padding-top: 5vh;
-    width: 90%;
+    width: 80%;
 }
 
 .supCom{
-    height: 10vh;
+    height: 9vh;
+    /* margin-bottom: 3vh; */
 }
 
 .tasks{
     display: flex;
     gap: 2vw;
     margin-top: 10vh;
-    
+    width: 100%;
 }
 
 .tasknum{
@@ -98,7 +103,7 @@
 }
 
 .tasknum>div{
-    background-color: red;
+    background-color: rgb(236, 27, 52);
     width: 1.7vw;
     border-radius: 50%;
     display: flex;
@@ -111,14 +116,14 @@
     justify-content: center;
     align-items: center;
     gap: 5vw;
-    
+    width: 90%;
 }
 
 .taskInfo{
     display: flex;
     flex-direction: column;
     gap: 6vh;
-    width: 40vw;
+    width: 100% ;
 }
 
 .taskInfo>div>h1{
@@ -162,17 +167,18 @@
 
 .talentInfo>button{
     background-color: white;
-    color: red;
-    border-radius: 0.5rem;
-    width: 10vw;
-    height: 5vh;
+    color:rgb(236, 27, 52);
+    border-radius: 2rem;
+    width: 13vw;
+    height: 8vh;
     border: none;
     font-family: 'Red Hat Display',
             sans-serif;
+            font-weight: 900;
 }
 
 /* .homeImg{
-    width: 100%;
+    width: 90%;
     margin-top: 10vh;
 } */
 .homeImg>img{
@@ -197,7 +203,7 @@
     /* justify-content: center;
     align-items: center; */
     gap: 5vh;
-    width: 30vw;
+    width: 35vw;
     /* padding-top: 15vh; */
     /* font-family: 'Inspiration', cursive;
         font-family: 'League Gothic', sans-serif;
@@ -256,7 +262,7 @@
     align-items: center;
     /* background-color: rgb(24, 23, 23); */
     margin: 5vw 0;
-    width: 100%;
+    width: 90%;
     
     height: 60vh;
 }
@@ -323,7 +329,7 @@ border-top-right-radius: 25px;
     display: flex;
     gap: 2vw;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 90%;
     justify-content: center;
     align-items: center;
 }
@@ -371,7 +377,7 @@ border-top-right-radius: 25px;
     /* margin: 5vh 0; */
     background-color: rgb(24, 23, 23);
    
-    width: 100%;
+    width: 90%;
     padding-top: 10vh;
 }
 
@@ -418,6 +424,7 @@ border-top-right-radius: 25px;
     align-items: center;
     gap: 5vh;
     margin: 5vh 0;
+    width: 90%;
 }
 
 .avaJobsData{
@@ -485,12 +492,12 @@ button:hover{
 
 @media only screen and (max-width: 980px) {
     .homeContainer{
-        width: 85rem;
+        /* width: 85rem; */
     }
     .homeContent {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        /* width: 100%; */
     }
     .homeInfo{
         width: 80%;
@@ -498,74 +505,108 @@ button:hover{
         align-items: center;
     }
         .homeInfo>h1{
-            font-size: 50px;
+            /* font-size: 50px; */
             font-family: fantasy;
         }
         .homeInfo>small{
-            font-size: 30px;
+            /* font-size: 30px; */
         }
                 .homeInfo>button{
-                    width: 90%;
+                    width: 100%;
                 }
                 .mainTask{
                     display: flex;
                     flex-direction: column;
-                    padding-left: 30vw;
-                
+                    /* gap: 0; */
+                    /* padding-left: 30vw;
+                    width: 100%; */
+                }
+                .mobTask{
+                    margin-top: -0.2vh;
                 }
                 .tasknum{
-                    gap: 22vh;
+                    /* gap: 28vh; */
+                    display: none;
                 }
                 .taskInfo{
                     width: 80%;
                     
                 }
                 .taskInfo>div>h1{
-                    font-size: 35px;
+                    font-size: 1.2rem;
                 }
                 .taskInfo>div>small{
-                    font-size: 25px;
+                    /* font-size: 25px; */
                     
                 }
+                .faq{
+                    padding-right: 20vw;
+                    flex-direction: column;
+                    margin-top: -25vh;
+                    
+                }
+
+                .faq>div>img{
+                    display: none;
+                }
                 .faqInfoone>small{
-                    font-size: 25px ;
+                    /* font-size: 25px ; */
                 }
                 .faqInfoone>h2{
-                    font-size: 35px;
+                    /* font-size: 35px; */
                 }
                 .faqInfo>div>h6{
-                    font-size: 25px;
+                    /* font-size: 25px; */
                 }
                 .faqDesc{
-                    font-size: 25px;
-                    width: 100%;
+                    /* font-size: 25px; */
+                    /* width: 100%; */
                 }
                 .talentInfo{
                     width: 50%;
                 }
                 .talentInfo>h3{
-                    font-size: 35px;
+                    /* font-size: 20px; */
+                                }
+                                .talentInfo>a{
+                                    font-size: 35px;
                                 }
                 .talentInfo>button{
-                    width: 30%;
-                    font-size: 20px;
+                    width: 90%;
+                    /* font-size: 20px; */
                 }
                 .search{
-                    width: 10%;
+                    width: 25%;
                 }
                 .search>h5{
-                    font-size: 18px;
+                    /* font-size: 18px; */
                 }
                 .sData{
-                    width: 80%;
+                    width: 100%;
                 }
                                 .supComContainer{
                                     width: 80%;
                                 }
+                                
                                                                 .supCom{
-                                                                    height: 8vh;
+                                                                    height: 3vh;
+                                                                    margin-bottom: 5vh;
                                                                 }
 
+            .bussinessWoman>img{
+                display: none;
+            }
+                        .homeImg>img{
+                            height: 50vh;
+                        }
                 
-                
+                        .getJob>h1{
+                            font-size: 1.5rem;
+                        }
+                                                .getJob>h5 {
+                                                    font-size: 1rem;
+                                                }
+                .mainSupCom>h1{
+                    font-size: 1.5rem;
+                }
 }

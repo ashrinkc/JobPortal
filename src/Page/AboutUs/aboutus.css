@@ -126,7 +126,7 @@ background-color: rgb(24, 23, 23);
 @media only screen and (max-width: 980px) {
     .aboutMain {
         /* min-width: 700px; */
-        width: 85rem;
+        /* width: 85rem; */
         font-size: 30px;
     }
     .galleryGrid{
