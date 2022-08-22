@@ -18,8 +18,8 @@
     cursor: pointer;
 }
 .homeInfo>h1{
-    font-family: 'Red Hat Display',
-        sans-serif;
+    /* font-family: 'Red Hat Display',
+        sans-serif; */
     font-size: 3rem;
    
 }
@@ -264,7 +264,7 @@
     margin: 5vw 0;
     width: 90%;
     
-    height: 60vh;
+    /* height: 60vh; */
 }
 
 .topSearch>h2{
@@ -505,8 +505,8 @@ button:hover{
         align-items: center;
     }
         .homeInfo>h1{
-            /* font-size: 50px; */
-            font-family: fantasy;
+            font-size: 2rem;
+            /* font-family: fantasy; */
         }
         .homeInfo>small{
             /* font-size: 30px; */

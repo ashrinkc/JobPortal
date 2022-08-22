@@ -27,6 +27,15 @@ const Contact = () => {
                   <input />
                   <h5>Phone</h5>
                   <input />
+                  <div className="mobileInput">
+                    <h5>Address</h5>
+                    <input />
+                    <h5>Message</h5>
+                    <input />
+                    <div className="contactBtnContainer">
+                      <button className="contactSubmitbtn">Submit</button>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="BigMsg">

@@ -23,7 +23,7 @@
 
 .recImg>img{
     width: 85vw;
-    height: 60vh;
+    height: auto;
 }
 
 .recruitmentInfo{

@@ -19,6 +19,7 @@ background-color: rgb(24, 23, 23);
     grid-area: top;
     width: 45vw;
     height: 40vh;
+    /* height: auto; */
     border-radius: 0.5rem;
 }
 
@@ -26,6 +27,7 @@ background-color: rgb(24, 23, 23);
     grid-area: midtop;
     width: 22vw;
     height: 40vh;
+    /* height: auto; */
     border-radius: 0.5rem;
 }
 
@@ -33,6 +35,7 @@ background-color: rgb(24, 23, 23);
     grid-area: midcen;
     width: 22vw;
     height: 40vh;
+    /* height: auto; */
     border-radius: 0.5rem;
 }
 
@@ -40,6 +43,7 @@ background-color: rgb(24, 23, 23);
     grid-area: midbtm;
     width: 22vw;
     height: 40vh;
+    /* height: auto; */
     border-radius: 0.5rem;
 }
 
@@ -47,6 +51,7 @@ background-color: rgb(24, 23, 23);
     grid-area: midlef;
     width: 22vw;
     height: 40vh;
+    /* height: auto; */
     border-radius: 0.5rem;
 }
 
@@ -54,6 +59,7 @@ background-color: rgb(24, 23, 23);
     grid-area: corrig;
     width: 20vw;
     height: 82vh;
+    /* height: auto; */
     border-radius: 0.5rem;
 }
 
@@ -134,21 +140,27 @@ background-color: rgb(24, 23, 23);
     }
     .item1{
         width: 100%;
+        /* height: auto; */
     }
     .item2{
         width: 100%;
+        /* height: auto; */
     }
         .item3 {
             width: 100%;
+            /* height: auto; */
         }
                 .item4 {
                     width: 100%;
+                    /* height: auto; */
                 }
                                 .item5 {
                                     width: 100%;
+                                    /* height: auto; */
                                 }
                                                                 .item6 {
                                                                     width: 100%;
+                                                                    /* height: auto; */
                                                                 }
     .ourTeamContainer{
         width: 90%;

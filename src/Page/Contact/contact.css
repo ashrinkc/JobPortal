@@ -89,9 +89,19 @@ input {
     margin-top: 10vh;
 }
 
+.mobileInput{
+    display: none;
+}
+
 @media only screen and (max-width: 980px) {
     .mainContactContainer {
         /* width: 85rem; */
+    }
+    .mobileInput{
+        display: block;
+    }
+    .contactSubmitbtn{
+        width: 30%;
     }
     .inputField{
         /* width: 100vw; */
