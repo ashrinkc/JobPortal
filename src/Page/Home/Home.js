@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./home.css";
+import { useTranslation } from "react-i18next";
 import HomeAvailableJobs from "./HomeAvailableJobs";
 import { HomeData } from "./HomeData";
 import TopSearches from "./TopSearches";
@@ -13,18 +14,24 @@ import woman from "../../Images/businesswoman.png";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import MainTopBar from "../../components/MainTopBar/MainTopBar";
 import { useNavigate } from "react-router-dom";
+
 const Home = () => {
   const [info1, setInfo1] = useState(null);
   const [info2, setInfo2] = useState(null);
   const [info3, setInfo3] = useState(null);
   const [info4, setInfo4] = useState(null);
   const navigate = useNavigate();
+
   const data = HomeData.map((items) => {
     return <HomeAvailableJobs item={items} />;
   });
+
   const searchData = Searches.map((items) => {
     return <TopSearches item={items} />;
   });
+
+  const { t, i18n } = useTranslation();
+
   return (
     <div>
       {/* <MainTopBar /> */}
@@ -32,14 +39,11 @@ const Home = () => {
       <div className="homeContainer">
         <div className="homeContent">
           <div className="homeInfo">
-            <h1>
-              FIND YOUR JOB IN <a>POLAND</a>
-            </h1>
+            <h1>{t("FIND YOUR JOB IN POLAND")}</h1>
             <small>
-              Our world class services help you land your dream job. Join Us and
-              secure your future.
+              {t('Our world class services help you land your dream job. Join Us and secure your future.')}
             </small>
-            <button onClick={() => navigate("/contact")}>Contact Us</button>
+            <button onClick={() => navigate("/contact")}>{t('Contact Us')}</button>
           </div>
           <div className="homeImg">
             {/* <img src="https://www.icegif.com/wp-content/uploads/reading-icegif-16.gif" /> */}

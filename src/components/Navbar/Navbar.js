@@ -1,13 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../Images/logo.png";
 import MainTopBar from "../MainTopBar/MainTopBar";
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const { t } = useTranslation();
   // const toggleNav = () => {
   //   setToggleMenu(!toggleMenu);
   // };
@@ -43,22 +46,22 @@ const Navbar = () => {
           {/* {(toggleMenu || screenWidth > 500) && ( */}
           <div className="navITEMS">
             <Link style={{ color: "white" }} to="/">
-              <li className="items">HOME</li>
+              <li className="items">{t('HOME')}</li>
             </Link>
             <Link style={{ color: "white" }} to="/jobs">
-              <li className="items">JOBS</li>
+              <li className="items">{t('JOBS')}</li>
             </Link>
             <Link style={{ color: "white" }} to="/recruitment">
-              <li className="items">RECRUITMENT</li>
+              <li className="items">{t('RECRUITMENT')}</li>
             </Link>
             <Link style={{ color: "white" }} to="/blog">
-              <li className="items">BLOG</li>
+              <li className="items">{t('BLOG')}</li>
             </Link>
             <Link style={{ color: "white" }} to="/about">
-              <li className="items">ABOUT</li>
+              <li className="items">{t('ABOUT')}</li>
             </Link>
             <Link style={{ color: "white" }} to="/contact">
-              <li className="items">CONTACT</li>
+              <li className="items">{t('CONTACT')}</li>
             </Link>
           </div>
           {/* )} */}

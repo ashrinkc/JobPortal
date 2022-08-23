@@ -1,35 +1,72 @@
-.socialImg>div>img{
-    height: 4vh;
+.socialImg > div > img {
+  height: 4vh;
 }
 
-.socialImg{
-    display: flex;
-    gap: 3vw;
+.socialImg {
+  display: flex;
+  gap: 3vw;
+  margin-right: 2rem;
 }
 
-.topBarInfo{
-    display: flex;
-    gap: 30vw;
+.language-selector {
+  height: 1.7rem;
+  display: flex;
+  overflow: hidden;
 }
 
-.conInfo{
-    display: flex;
-    gap: 3vw;
+.globe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.3rem;
+  padding-bottom: 0.4rem;
+  width: 2rem;
+  height: 2rem;
+}
+.polish-button {
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-right: 4px;
+  color: white;
+  border-color: white;
+}
+.english-button {
+  border-radius: 2px;
+  background-color: #d46051;
+  height: 2.2rem;
+  width: 2.5rem;
+  color: white;
+  border-color: white;
+}
+.topBarInfo {
+  display: flex;
+  gap: 30vw;
 }
 
-.topBarContainer{
-    background-color: crimson;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 8vh;
-    /* width: 1350px; */
-    width: 100%;
+.poland {
+  display: flex;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.conInfo {
+  display: flex;
+  gap: 3vw;
+}
+
+.topBarContainer {
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 8vh;
+  /* width: 1350px; */
+  width: 100%;
 }
 
 @media only screen and (max-width: 980px) {
-    .topBarContainer {
-        width: 85rem;
-    }
+  .topBarContainer {
+    width: 85rem;
+  }
 }
