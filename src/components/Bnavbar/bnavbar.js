@@ -46,6 +46,16 @@ function BasicExample() {
                 </a>
               </Nav.Link>
             </Link>
+            {/* <Link to="/about">
+              <Nav.Link href="#link">
+                <a
+                  className="navItems"
+                  style={{ color: "white", fontSize: "12px" }}
+                >
+                  GALLERY
+                </a>
+              </Nav.Link>
+            </Link> */}
             <Link to="/blog">
               <Nav.Link href="#link">
                 <a
@@ -66,6 +76,7 @@ function BasicExample() {
                 </a>
               </Nav.Link>
             </Link>
+
             <Link to="/contact">
               <Nav.Link href="#link">
                 <a

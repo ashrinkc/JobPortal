@@ -41,7 +41,7 @@ const Blog = () => {
   //   setPageCount(Math.ceil(blogs.length / itemPerPage));
   // }, [itemOffset, blogs]);
   return (
-    <div>
+    <div className="mainn">
       <Navbar />
       <div className="blogContainer">
         <div className="blogTop">

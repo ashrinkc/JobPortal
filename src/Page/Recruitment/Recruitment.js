@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import "./recruitment.css";
 const Recruitment = () => {
   return (
-    <div>
+    <div className="mainn">
       <Navbar />
       <div className="mainRec">
         <div className="RecruitTop">

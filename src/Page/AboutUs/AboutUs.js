@@ -6,7 +6,7 @@ import { aboutData } from "./AboutUsData";
 import Footer from "../../components/Footer/Footer";
 const AboutUs = () => {
   return (
-    <div>
+    <div className="mainn">
       <Navbar />
       <div className="aboutMain">
         <div className="aboutContainer">

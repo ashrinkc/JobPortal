@@ -64,19 +64,19 @@ li{
 }
 
 .navMar{
-    padding-left: 13vh;
+    padding-left: 15vw;
 }
 
 
 .navItems{
-    padding-left: 5px;
-        padding-right: 5px;
+    /* padding-left: 5px;
+        padding-right: 5px; */
 }
 
 
 .BrandLogo{
     height: 15vh;
-    margin-left: -1vw;
+    margin-left: -2vw;
         cursor: pointer;
 }
 @media only screen and (max-width: 980px) {

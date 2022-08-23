@@ -5,31 +5,23 @@ export const HomeData = [
   },
   {
     name: "Guard",
-    num: "20 Jobs",
+    num: "5 Jobs",
   },
   {
     name: "Human Resource",
-    num: "20 Jobs",
+    num: "10 Jobs",
   },
   {
-    name: "Development",
+    name: "Production Helper",
     num: "20 Jobs",
   },
   {
     name: "Teacher",
-    num: "20 Jobs",
+    num: "15 Jobs",
   },
   {
-    name: "QA",
-    num: "20 Jobs",
-  },
-  {
-    name: "Development",
-    num: "20 Jobs",
-  },
-  {
-    name: "Development",
-    num: "20 Jobs",
+    name: "Factory Worker",
+    num: "12 Jobs",
   },
   {
     name: "Cook",
@@ -37,14 +29,6 @@ export const HomeData = [
   },
   {
     name: "IT Manager",
-    num: "20 Jobs",
-  },
-  {
-    name: "Development",
-    num: "20 Jobs",
-  },
-  {
-    name: "Development",
-    num: "20 Jobs",
+    num: "23 Jobs",
   },
 ];

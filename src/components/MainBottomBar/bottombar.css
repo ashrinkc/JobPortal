@@ -2,23 +2,34 @@
     background-color: crimson;
     height: 15vh;
     display: flex;
+    gap: 50vh;
     justify-content: center;
     align-items: center;
     /* width: 1350px; */
     width: 100%;
 }
 
-.bottomBar>h3{
+.bottomLeft{
+    display: flex;
+    gap: 5vh;
+}
+
+.bottomBar>div>h3{
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 980px) {
     .bottomBar {
         height: 5vh;
+        gap: 1vh;
         /* width: 85rem; */
     }
-        .bottomBar>h3{
-            font-size: 0.7rem ;
+        .bottomLeft{
+            
+            gap: 0.5vh;
+        }
+        .bottomBar>div>h3{
+            font-size: 0.5rem ;
         }
 }

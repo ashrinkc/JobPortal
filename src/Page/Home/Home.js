@@ -28,7 +28,7 @@ const Home = () => {
     return <TopSearches item={items} />;
   });
   return (
-    <div>
+    <div className="mainn">
       {/* <MainTopBar /> */}
       <Navbar />
       <div className="homeContainer">
@@ -37,6 +37,7 @@ const Home = () => {
             <h1>
               FIND YOUR JOB IN <a>POLAND</a>
             </h1>
+
             <small>
               Our world class services help you land your dream job. Join Us and
               secure your future.
@@ -49,8 +50,11 @@ const Home = () => {
           </div>
         </div>
         <div className="mainSupCom">
-          <h1>TRUSTED BY 100+ COMPANIES IN POLAND</h1>
+          <h1>Trusted by 100+ companies in Poland</h1>
           <div className="supComContainer">
+            <div>
+              <img className="supCom" src={supCom} />
+            </div>
             <div>
               <img className="supCom" src={supCom} />
             </div>
@@ -75,11 +79,11 @@ const Home = () => {
             <button>Search</button>
           </div> */}
           <div>
-            <h1>Find the right job</h1>
+            <h1>Find the right job.</h1>
           </div>
-          <SearchBar />
-          <h2>Top Searches</h2>
-          <div className="sData">{searchData}</div>
+          {/* <SearchBar /> */}
+          {/* <h2>Top Searches</h2> */}
+          <div className="sData">{data}</div>
           <div onClick={() => navigate("/jobs")} className="viewJobs">
             <h6>View All Jobs</h6>
           </div>
