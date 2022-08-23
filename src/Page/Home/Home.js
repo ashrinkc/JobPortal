@@ -114,30 +114,60 @@ const Home = () => {
             </h5>
             <div className="mainTask">
               <div className="tasks">
-                <div className="tasknum">
+                {/* <div className="tasknum">
                   <div>1</div>
                   <div>3</div>
+                </div> */}
+                <div className="taskInfo">
+                  <div className="taskInfoIn">
+                    <div className="tasknum">1</div>
+                    <div className="taskDet">
+                      <h1>Submit your CV & Document</h1>
+                      <small>
+                        Now you can apply for Working Visa of Poland from India
+                        & Nepal. Submit your CV & Documents to our given mail
+                        address.
+                      </small>
+                    </div>
+                  </div>
+                  <div className="taskInfoIn">
+                    <div className="tasknum">3</div>
+                    <div className="taskDet">
+                      <h1>Apply the Dates for Embassy in Delhi</h1>
+                      <small>
+                        Now you can apply for Working Visa of Poland from India
+                        & Nepal. Submit your CV & Documents to our given mail
+                        address.
+                      </small>
+                    </div>
+                  </div>
                 </div>
                 <div className="taskInfo">
-                  <div>
-                    <h1>Submit your CV & Document</h1>
-                    <small>
-                      Now you can apply for Working Visa of Poland from India &
-                      Nepal. Submit your CV & Documents to our given mail
-                      address.
-                    </small>
+                  <div className="taskInfoIn">
+                    <div className="tasknum">2</div>
+                    <div className="taskDet">
+                      <h1>Contact Us for help and guidance</h1>
+                      <small>
+                        Now you can apply for Working Visa of Poland from India
+                        & Nepal. Submit your CV & Documents to our given mail
+                        address.
+                      </small>
+                    </div>
                   </div>
-                  <div>
-                    <h1>Apply the Dates for Embassy in Delhi</h1>
-                    <small>
-                      Now you can apply for Working Visa of Poland from India &
-                      Nepal. Submit your CV & Documents to our given mail
-                      address.
-                    </small>
+                  <div className="taskInfoIn">
+                    <div className="tasknum">4</div>
+                    <div className="taskDet">
+                      <h1>Apply the Dates for Embassy in Delhi</h1>
+                      <small>
+                        Now you can apply for Working Visa of Poland from India
+                        & Nepal. Submit your CV & Documents to our given mail
+                        address.
+                      </small>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="tasks mobTask">
+              {/* <div className="tasks mobTask">
                 <div className="tasknum">
                   <div>2</div>
                   <div>4</div>
@@ -160,7 +190,7 @@ const Home = () => {
                     </small>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             {/* <div className="stepsContainer">
               <div className="stepsImg">

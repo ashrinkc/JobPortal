@@ -130,25 +130,35 @@
 
 .tasks{
     display: flex;
-    gap: 2vw;
+    gap: 10vw;
     margin-top: 10vh;
-    width: 90%;
+    width: 95%;
 }
 
 .tasknum{
+    /* display: flex;
+    flex-direction: column; */
+background-color: rgb(236, 27, 52);
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
     display: flex;
-    flex-direction: column;
-   
-    gap: 16vh;
+    justify-content: center;
+    align-items: center;
+    /* gap: 16vh; */
 }
 
-.tasknum>div{
+/* .tasknum>div{
     background-color: rgb(236, 27, 52);
     width: 1.7vw;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.tasknum{
+   
 }
 
 .mainTask{
@@ -159,10 +169,23 @@
     /* width: 90%; */
 }
 
+.taskInfoIn{
+    display: flex;
+    gap: 2vw;
+}
+
+.taskDet>h1{
+    font-size: 1.5rem;
+        font-weight: 700;
+}
+.taskDet>small{
+    color: gainsboro;
+    
+}
 .taskInfo{
     display: flex;
     flex-direction: column;
-    gap: 6vh;
+    gap: 8vh;
     /* width: 100% ; */
 }
 
@@ -485,7 +508,7 @@ border-top-right-radius: 25px;
 }
 
 .getJob>h1{
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     font-weight: 500;
     /* font-weight: 900;
     font-family: 'Red Hat Display',
@@ -703,7 +726,7 @@ button:hover{
                                 }
                                 
                                                                 .supCom{
-                                                                    height: 3vh;
+                                                                    height: 7vh;
                                                                     margin-bottom: 5vh;
                                                                 }
 
@@ -746,7 +769,8 @@ button:hover{
                                     font-size: 0.5rem;
                                 }
                 .tasks{
-                    /* gap: 0vw; */
+                    flex-direction: column;
+                    gap: 3vh;
                 }
                 .careerBlogs{
                     flex-direction: column;
