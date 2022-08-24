@@ -285,8 +285,9 @@ background-color: rgb(236, 27, 52);
 }
 
 .talentInfo>a{
-    font-family: fantasy;
-    font-size: 2cm;
+    /* font-family: fantasy; */
+    font-size: 3.5rem;
+    font-weight: 700;
 }
 
 .talentInfo>button{
