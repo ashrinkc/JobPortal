@@ -13,7 +13,7 @@
 .RecruitTop>h1 {
     color: white;
     /* font-family: "Great Vibes", cursive; */
-    font-size: 10vh;
+    font-size: 4rem;
 }
 
 .mainRec{
@@ -60,6 +60,9 @@
     .mainRec{
         /* width: 85rem; */
         /* font-size: 30px; */
+    }
+    .RecruitTop>h1{
+        font-size: 2rem;
     }
     .recruitmentInfoBottom>div>h5{
         /* font-size: 35px; */
