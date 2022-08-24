@@ -119,6 +119,7 @@
         }
     .footerInfo{
         width: 90%;
+        
         /* font-size: rem; */
     }
 
@@ -131,10 +132,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 5vh;
     }
-    .linkMob{
-        display: none;
-    }
+        .linkMob>h3{
+            font-size: 1rem;
+        }
+        .linkMob>p{
+            font-size: 0.8rem;
+        }
+        .footRight{
+            width: 90%;
+        }
+    
     .commImgMain{
         display: none;
         }
