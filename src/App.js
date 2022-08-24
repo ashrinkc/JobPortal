@@ -11,6 +11,7 @@ import Recruitment from "./Page/Recruitment/Recruitment";
 import IndividualBlog from "./Page/Blogs/IndividualBlog";
 import Service from "./Page/OurService/Service";
 import Visa from "./Page/VisaProcess/Visa";
+import Terms from "./Page/TermsService/Terms";
 function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
         <Route path="/recruitment" element={<Recruitment />}></Route>
         <Route path="/service" element={<Service />}></Route>
         <Route path="/visa" element={<Visa />}></Route>
+        <Route path="/terms" element={<Terms />}></Route>
         <Route path="/indiblog/:id" element={<IndividualBlog />}></Route>
       </Routes>
     </div>

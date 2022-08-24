@@ -68,7 +68,12 @@ const Footer = () => {
                   {" "}
                   How to Apply?
                 </p>
-                <p> Terms of Service</p>
+                <p
+                  onClick={() => navigate("/terms") || window.scrollTo(0, 2000)}
+                >
+                  {" "}
+                  Terms of Service
+                </p>
               </div>
             </div>
             <div className="commImgMain">
