@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import "./blog.css";
 import { getAllBlogs } from "../../redux/apiCalls";
 import { getBlogsFailure } from "../../redux/blogReducer";
+import { Navigate, useNavigate } from "react-router-dom";
 const Blog = () => {
   const [show, setShow] = useState(null);
   const [title, setTitle] = useState("Show More");
@@ -23,6 +24,8 @@ const Blog = () => {
   //get all blogs
   const [isLoading, setLoading] = useState(true);
   useEffect(() => {
+    // console.log(blogs);
+    console.log(blogs[0]);
     setLoading(true);
     getAllBlogs(dispatch);
     setLoading(false);
@@ -40,6 +43,12 @@ const Blog = () => {
   //   setCurrentItems(blogs.slice(itemOffset, endOffSet));
   //   setPageCount(Math.ceil(blogs.length / itemPerPage));
   // }, [itemOffset, blogs]);
+  const navigate = useNavigate();
+  const readMore = () => {
+    const id = blogs.map((item) => item._id);
+    // console.log(id);
+    navigate(`/indiBlog/${id}`);
+  };
   return (
     <div className="mainn">
       <Navbar />
@@ -68,7 +77,10 @@ const Blog = () => {
                 </div>
 
                 <small>12 min read</small>
-                <h5>Read More</h5>
+
+                <h5 onClick={() => navigate(`/indiBlog/${item._id}`)}>
+                  Read More
+                </h5>
               </div>
             </div>
           ))}

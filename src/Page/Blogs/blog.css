@@ -82,6 +82,13 @@ background-color: rgb(24, 23, 23);
     border-radius: 2rem;
 }
 
+.indiBlog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 980px) {
     .blogContainer{
         /* width: 85rem; */

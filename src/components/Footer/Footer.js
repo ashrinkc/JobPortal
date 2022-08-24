@@ -36,16 +36,38 @@ const Footer = () => {
             <div className="footConn">
               <div className="linkMob">
                 <h3>Company</h3>
-                <p onClick={() => navigate("/about")}> About Us</p>
-                <p onClick={() => navigate("/blog")}> Blog</p>
-                <p onClick={() => navigate("/contact")}> Contact</p>
+                <p onClick={() => navigate("/about") || window.scrollTo(0, 0)}>
+                  {" "}
+                  About Us
+                </p>
+                <p onClick={() => navigate("/blog") || window.scrollTo(0, 0)}>
+                  {" "}
+                  Blog
+                </p>
+                <p
+                  onClick={() => navigate("/contact") || window.scrollTo(0, 0)}
+                >
+                  {" "}
+                  Contact
+                </p>
                 <p> Our Team</p>
               </div>
               <div className="linkMob">
                 <h3>Support</h3>
-                <p> Our Service</p>
-                <p> Visa Process</p>
-                <p> How to Apply?</p>
+                <p
+                  onClick={() => navigate("/service") || window.scrollTo(0, 0)}
+                >
+                  {" "}
+                  Our Service
+                </p>
+                <p onClick={() => navigate("/visa") || window.scrollTo(0, 0)}>
+                  {" "}
+                  Visa Process
+                </p>
+                <p onClick={() => navigate("/") || window.scrollTo(0, 2000)}>
+                  {" "}
+                  How to Apply?
+                </p>
                 <p> Terms of Service</p>
               </div>
             </div>

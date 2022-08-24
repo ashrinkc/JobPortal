@@ -42,7 +42,11 @@ const Home = () => {
               Our world class services help you land your dream job. Join Us and
               secure your future.
             </small>
-            <button onClick={() => navigate("/contact")}>Contact Us</button>
+            <button
+              onClick={() => navigate("/contact") || window.scrollTo(0, 0)}
+            >
+              Contact Us
+            </button>
           </div>
           <div className="homeImg">
             {/* <img src="https://www.icegif.com/wp-content/uploads/reading-icegif-16.gif" /> */}
@@ -84,7 +88,10 @@ const Home = () => {
           {/* <SearchBar /> */}
           {/* <h2>Top Searches</h2> */}
           <div className="sData">{data}</div>
-          <div onClick={() => navigate("/jobs")} className="viewJobs">
+          <div
+            onClick={() => navigate("/jobs") || window.scrollTo(0, 0)}
+            className="viewJobs"
+          >
             <h6>View All Jobs</h6>
           </div>
         </div>
@@ -99,7 +106,11 @@ const Home = () => {
             <div className="talentInfo">
               <h3>Apply directly from</h3>
               <a>India & Nepal.</a>
-              <button onClick={() => navigate("/about")}>Apply Now</button>
+              <button
+                onClick={() => navigate("/about") || window.scrollTo(0, 0)}
+              >
+                Apply Now
+              </button>
             </div>
             <div className="bussinessWoman">
               <img src={woman} />
@@ -293,7 +304,9 @@ const Home = () => {
               </div>
             </div>
             <div className="careerViewAll">
-              <h6 onClick={() => navigate("/blog")}>View More</h6>
+              <h6 onClick={() => navigate("/blog") || window.scrollTo(0, 0)}>
+                View More
+              </h6>
             </div>
           </div>
           {/* <div className="faqContainer">
