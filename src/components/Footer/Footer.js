@@ -68,9 +68,7 @@ const Footer = () => {
                   {" "}
                   How to Apply?
                 </p>
-                <p
-                  onClick={() => navigate("/terms") || window.scrollTo(0, 2000)}
-                >
+                <p onClick={() => navigate("/terms") || window.scrollTo(0, 0)}>
                   {" "}
                   Terms of Service
                 </p>
