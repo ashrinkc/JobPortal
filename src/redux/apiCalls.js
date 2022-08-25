@@ -28,7 +28,7 @@ export const getAllBlogs = async (dispatch) => {
       "https://multi-agency.herokuapp.com/api/v1/blog/allBlog"
     );
 
-    // console.log(res);
+    console.log(res.data);
     dispatch(getBlogsSuccess(res.data));
   } catch (error) {
     dispatch(getBlogsFailure());

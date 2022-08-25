@@ -13,14 +13,21 @@ const Jobs = () => {
   //get all blogs
   const dispatch = useDispatch();
   const [isLoading, setLoading] = useState(true);
+  const [search, setSearch] = useState("");
   useEffect(() => {
     setLoading(true);
     getAllJobs(dispatch);
     setLoading(false);
   }, [dispatch]);
-  const jData = gJobs.map((items) => {
+  const jData = JobsData.map((items) => {
     return <IndiJobs item={items} />;
   });
+  const handleChange = (e) => {
+    setSearch(e.target.value);
+  };
+  const filteredData = JobsData.filter((data) =>
+    data.name.toLowerCase().includes(search.toLowerCase())
+  );
   return (
     <div>
       <Navbar />
@@ -29,11 +36,22 @@ const Jobs = () => {
           <div className="jobheadSrch">
             {/* <input placeholder="Search Your Job" />
             <button>Search</button> */}
-            <SearchBar />
+            {/* <SearchBar /> */}
+            <div className="dreamJob">
+              <input
+                placeholder="Find your dream job"
+                onChange={handleChange}
+              />
+              <button>Search</button>
+            </div>
           </div>
 
-          <div className="indiJobDetails">{jData}</div>
-          <button className="jobBtn">Show More</button>
+          <div className="indiJobDetails">
+            {filteredData.map((items) => {
+              return <IndiJobs item={items} />;
+            })}
+          </div>
+          {/* <button className="jobBtn">Show More</button> */}
         </div>
       </div>
       <Footer />

@@ -9,10 +9,12 @@ const IndiJobs = (props) => {
     navigate("/contact");
   };
   return (
-    <div className="indiJobs">
-      <div className="insideJobs" onClick={jobs}>
-        <h4>{props.item.title}</h4>
+    <div className="indiJobs" onClick={jobs}>
+      <div className="insideJobs">
+        <h4>{props.item.name}</h4>
         <small>{props.item.desc}</small>
+        <small>{props.item.desctwo}</small>
+        <small>{props.item.descthree}</small>
       </div>
     </div>
   );
