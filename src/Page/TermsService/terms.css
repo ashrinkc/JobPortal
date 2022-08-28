@@ -1,0 +1,28 @@
+.termInfoTop {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.termInfoTop>small{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.termImg {
+    width: 90%;
+    margin: 5vh 0;
+}
+
+.termImg>img {
+    width: 85vw;
+    height: 60vh;
+}
+
+@media only screen and (max-width: 980px){
+    .termImg>img {
+            width: 100%;
+            height: auto;
+        }
+}

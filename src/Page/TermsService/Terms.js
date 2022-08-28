@@ -12,85 +12,22 @@ const Terms = () => {
         </div>
 
         <div className="recruitmentInfo">
-          <div className="recruitmentInfoTop">
+          <div className="termInfoTop">
             <small>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae est accusantium soluta debitis atque sint dicta, autem
-              ipsum fugiat. Molestiae quae nisi molestias iusto dolore? Quia
-              minus, tempora corporis culpa ad dolorum est necessitatibus
-              molestias, libero, voluptatem sint modi commodi dolor at
-              perferendis. Dignissimos amet, exercitationem qui accusantium
-              recusandae facere.teneturadipisci molestias omnis illum maxime rem
-              alias vero error suscipit fugit minus voluptates
-            </small>
-            <small>
-              sapiente aperiam obcaecati perspiciatis molestiae maiores! Error
-              sapiente, suscipit amet consectetur adipisci inventore, ducimus
-              esse est ex, quo laudantium molestiae aliquam beatae aspernatur
-              soluta. Nisi perspiciatis quia repudiandae quam saepe esse iure
-              quidem delectus odit magni repellat provident tempore, numquam
-              veritatis amet perferendis? Amet numquam laboriosam rem quas
-              provident magni repudiandae accusamus minus! Numquam ex labore
-              esse eum facere. Molestiae quam explicabo voluptate autem ipsum
-              minus aliquid dolore voluptas praesentium animi quisquam, cumque
-              non inventore eveniet omnis accusamus veritatis harum ab
-              asperiores totam ut? Reprehenderit.
+              We know the legislative framework that regulates the stay and work
+              of foreign citizens in Poland. We assume responsibility for
+              obtaining work permits and residence permits and we are
+              contractually responsible for completing these formalities. We
+              take care of everything that involves immigration services for
+              future employees: (Including obtaining work permits, assist to
+              apply for resident permits &amp; documentation. We communicate
+              with the institutions of the state in order to obtain the
+              documents necessary for immigration process, for legal stay and
+              work in Poland.
             </small>
           </div>
-          <div className="recImg">
+          <div className="termImg">
             <img src="https://media.npr.org/assets/img/2020/03/04/accept_terms_wide-d65e4c6e4c775f09d49a6bf8b299cebe037f4459-s1100-c50.jpg" />
-          </div>
-          <div className="recruitmentInfoBottom">
-            <div>
-              <h5 style={{ color: "red" }}>Recruitment Service</h5>
-              <small>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-                vel excepturi recusandae eum magnam libero odit maxime eveniet
-                modi ipsa nulla fugiat iusto quibusdam velit voluptatum
-                laudantium saepe, placeat,voluptates voluptatem commodi
-                veritatis non esse blanditiis? Incidunt, voluptatum? Libero sed
-                sequi alias maiores sit architecto qui corrupti id quaerat nemo
-                possimus inventore, amet rerum ex praesentium autem illo
-                facilis!
-              </small>
-            </div>
-            <div>
-              <h5 style={{ color: "red" }}>OFFSHORE RECRUITMENT</h5>
-              <small>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Repellendus minima aperiam quisquam nihil laboriosam molestias
-                magni laudantium ,voluptates voluptatem commodi veritatis
-                voluptates repellat ad amet iure qui. Nostrum, at? Quisquam
-                ullam modi eligendi ipsum, recusandae nulla autem dolore laborum
-                quasi vitae, aliquid ratione dicta maiores eaque nobis odio!
-              </small>
-            </div>
-          </div>
-          <div className="recruitmentInfoBottom">
-            <div>
-              <h5 style={{ color: "red" }}>Recruitment Service</h5>
-              <small>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-                vel excepturi recusandae eum magnam libero odit maxime eveniet
-                modi ipsa nulla fugiat iusto quibusdam velit voluptatum
-                laudantium saepe, placeat,voluptates voluptatem commodi
-                veritatis non esse blanditiis? Incidunt, voluptatum? Libero sed
-                sequi alias maiores sit architecto qui corrupti id quaerat nemo
-                possimus inventore, amet rerum ex praesentium autem illo
-                facilis!
-              </small>
-            </div>
-            <div>
-              <h5 style={{ color: "red" }}>OFFSHORE RECRUITMENT</h5>
-              <small>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Repellendus minima aperiam quisquam nihil laboriosam molestias
-                magni laudantium ,voluptates voluptatem commodi veritatis
-                voluptates repellat ad amet iure qui. Nostrum, at? Quisquam
-                ullam modi eligendi ipsum, recusandae nulla autem dolore laborum
-                quasi vitae, aliquid ratione dicta maiores eaque nobis odio!
-              </small>
-            </div>
           </div>
         </div>
       </div>

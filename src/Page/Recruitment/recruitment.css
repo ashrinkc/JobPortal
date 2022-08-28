@@ -49,11 +49,60 @@
     gap: 5vh;
 }
 
+.recruitmentInfoTop>small{
+    font-size: 1rem;
+        line-height: 2rem;
+}
+
+.recruit>small{
+    line-height: 1.5rem;
+}
+
+.offshore>small{
+    line-height: 1.5rem;
+}
+
+.rbLeft{
+    /* width: 150vw; */
+}
+
+.subTitle{
+    color:gainsboro;
+    font-size: 1rem;
+}
+
 .recruitmentInfoBottom{
     width: 90%;
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* align-items: center; */
     gap: 5vw;
     margin: 5vh 0;
+}
+
+.recruit{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 3vh;
+}
+
+.offshore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3vh;
+}
+
+.recruitmentInfoBottom>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 50%;
 }
 
 @media only screen and (max-width: 980px) {
@@ -67,6 +116,10 @@
     .recruitmentInfoBottom>div>h5{
         /* font-size: 35px; */
     }
+
+        .recruitmentInfoBottom>div{
+            width: 100%;
+        }
     .recImg>img{
         width: 100%;
     }

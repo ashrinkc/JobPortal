@@ -24,6 +24,9 @@ const Blog = () => {
   //get all blogs
   const [isLoading, setLoading] = useState(true);
   useEffect(() => {
+    blogs.map((item) => {
+      console.log(item);
+    });
     // console.log(blogs);
     console.log(blogs[0]);
     setLoading(true);
