@@ -18,38 +18,49 @@ function BasicExample() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto"></Nav>
-            <Nav className="navMar">
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <Nav.Link href="#home">
-                  <a
-                    className="navItems"
-                    style={{ color: "white", fontSize: "12px" }}
-                  >
-                    HOME
-                  </a>
-                </Nav.Link>
-              </Link>
-              <Link to="/jobs" style={{ textDecoration: "none" }}>
-                <Nav.Link href="#link">
-                  <a
-                    className="navItems"
-                    style={{ color: "white", fontSize: "12px" }}
-                  >
-                    JOBS
-                  </a>
-                </Nav.Link>
-              </Link>
-              <Link to="/recruitment" style={{ textDecoration: "none" }}>
-                <Nav.Link href="#link">
-                  <a
-                    className="navItems"
-                    style={{ color: "white", fontSize: "12px" }}
-                  >
-                    RECRUITMENT
-                  </a>
-                </Nav.Link>
-              </Link>
-              {/* <Link to="/about">
+            <div className="navMar">
+              <Nav className="navMar">
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  <Nav.Link href="#home">
+                    <a
+                      className="navItems"
+                      style={{ color: "white", fontSize: "12px" }}
+                    >
+                      HOME
+                    </a>
+                  </Nav.Link>
+                </Link>
+                <Link to="/about" style={{ textDecoration: "none" }}>
+                  <Nav.Link href="#link">
+                    <a
+                      className="navItems"
+                      style={{ color: "white", fontSize: "12px" }}
+                    >
+                      ABOUT
+                    </a>
+                  </Nav.Link>
+                </Link>
+                <Link to="/jobs" style={{ textDecoration: "none" }}>
+                  <Nav.Link href="#link">
+                    <a
+                      className="navItems"
+                      style={{ color: "white", fontSize: "12px" }}
+                    >
+                      JOBS
+                    </a>
+                  </Nav.Link>
+                </Link>
+                <Link to="/recruitment" style={{ textDecoration: "none" }}>
+                  <Nav.Link href="#link">
+                    <a
+                      className="navItems"
+                      style={{ color: "white", fontSize: "12px" }}
+                    >
+                      RECRUITMENT
+                    </a>
+                  </Nav.Link>
+                </Link>
+                {/* <Link to="/about">
               <Nav.Link href="#link">
                 <a
                   className="navItems"
@@ -59,38 +70,29 @@ function BasicExample() {
                 </a>
               </Nav.Link>
             </Link> */}
-              <Link to="/blog" style={{ textDecoration: "none" }}>
-                <Nav.Link href="#link">
-                  <a
-                    className="navItems"
-                    style={{ color: "white", fontSize: "12px" }}
-                  >
-                    BLOG
-                  </a>
-                </Nav.Link>
-              </Link>
-              <Link to="/about" style={{ textDecoration: "none" }}>
-                <Nav.Link href="#link">
-                  <a
-                    className="navItems"
-                    style={{ color: "white", fontSize: "12px" }}
-                  >
-                    ABOUT
-                  </a>
-                </Nav.Link>
-              </Link>
+                <Link to="/blog" style={{ textDecoration: "none" }}>
+                  <Nav.Link href="#link">
+                    <a
+                      className="navItems"
+                      style={{ color: "white", fontSize: "12px" }}
+                    >
+                      BLOG
+                    </a>
+                  </Nav.Link>
+                </Link>
 
-              <Link to="/contact" style={{ textDecoration: "none" }}>
-                <Nav.Link href="#link">
-                  <a
-                    className="navItems"
-                    style={{ color: "white", fontSize: "12px" }}
-                  >
-                    CONTACT
-                  </a>
-                </Nav.Link>
-              </Link>
-            </Nav>
+                <Link to="/contact" style={{ textDecoration: "none" }}>
+                  <Nav.Link href="#link">
+                    <a
+                      className="navItems"
+                      style={{ color: "white", fontSize: "12px" }}
+                    >
+                      CONTACT
+                    </a>
+                  </Nav.Link>
+                </Link>
+              </Nav>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
