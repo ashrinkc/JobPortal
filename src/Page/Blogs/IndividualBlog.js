@@ -9,15 +9,17 @@ const IndividualBlog = () => {
   const path = location.pathname.split("/")[2];
   const [title, setTitle] = useState();
   const [desc, setDesc] = useState();
+  const [image, setImage] = useState();
   useEffect(() => {
     const getIdbyData = async () => {
       try {
         const res = await axios.get(
-          "https://multi-agency.herokuapp.com/api/v1/blog/find/" + path
+          "http://localhost:5000/api/v1/blog/find/" + path
         );
         setTitle(res.data.title);
         setDesc(res.data.desc);
-        // console.log(res.data);
+        setImage(res.data.img.url);
+        console.log(res.data);
       } catch (err) {
         console.log(err);
       }
@@ -25,14 +27,17 @@ const IndividualBlog = () => {
     getIdbyData();
   }, []);
   return (
-    <div className="mainIndiBlog">
+    <>
       <Navbar />
-      <div className="indiBlog">
-        <h1>{title}</h1>
-        <p>{desc}</p>
+      <div className="mainIndiBlog">
+        <div className="indiBlog">
+          <h1>{title}</h1>
+          <img src={image} />
+          <p>{desc}</p>
+        </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

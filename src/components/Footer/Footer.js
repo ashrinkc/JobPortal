@@ -50,7 +50,12 @@ const Footer = () => {
                   {" "}
                   Contact
                 </p>
-                <p> Our Team</p>
+                <p
+                  onClick={() => navigate("/about") || window.scrollTo(0, 1000)}
+                >
+                  {" "}
+                  Our Team
+                </p>
               </div>
               <div className="linkMob">
                 <h3>Support</h3>

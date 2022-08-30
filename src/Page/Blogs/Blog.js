@@ -24,8 +24,11 @@ const Blog = () => {
   //get all blogs
   const [isLoading, setLoading] = useState(true);
   useEffect(() => {
+    // blogs.map((item) => {
+    //   console.log(item);
+    // });
     blogs.map((item) => {
-      console.log(item);
+      console.log(item.desc.split(" ")[3]);
     });
     // console.log(blogs);
     console.log(blogs[0]);
@@ -63,11 +66,13 @@ const Blog = () => {
         <div className="mainBlogInfo">
           {blogs.map((item, id) => (
             <div className="blogInfo">
-              <img src={item.img} />
-              <div>
-                <h5>{item.title}</h5>
-                <h1>{item.desc}</h1>
-                <div className="blogBtn">
+              <img src={item.img.url} />
+              <div className="blogSlice">
+                <div>
+                  <h1>{item.title}</h1>
+                  <h5>{item.desc.slice(0, 200)}...</h5>
+                </div>
+                {/* <div className="blogBtn">
                   <button>
                     <img src="http://richardreina.com/wp-content/uploads/2015/05/twitter-logo-black-and-white-2.jpg" />
                   </button>
@@ -77,13 +82,14 @@ const Blog = () => {
                   <button>
                     <img src="https://www.nicepng.com/png/detail/393-3936850_instagram-pure-comments-instagram-logo-black-jpg.png" />
                   </button>
+                </div> */}
+
+                {/* <small>12 min read</small> */}
+                <div>
+                  <h5 onClick={() => navigate(`/indiBlog/${item._id}`)}>
+                    Read More
+                  </h5>
                 </div>
-
-                <small>12 min read</small>
-
-                <h5 onClick={() => navigate(`/indiBlog/${item._id}`)}>
-                  Read More
-                </h5>
               </div>
             </div>
           ))}

@@ -82,14 +82,50 @@ background-color: rgb(24, 23, 23);
     border-radius: 2rem;
 }
 
+.mainIndiBlog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .indiBlog{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10vh;
+    width: 90%;
+    margin: 10vh 0;
+}
+
+.indiBlog>img{
+    /* height: 60vh; */
+    height: 80vh;
+    width: 87vw;
+    border-radius: 1rem;
+}
+
+.indiBlog>h1{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.blogSlice{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
 }
 
 @media only screen and (max-width: 980px) {
+    .indiBlog{
+        gap: 3vh;
+    }
+    .indiBlog>img{
+        height: auto;
+    }
     .blogContainer{
         /* width: 85rem; */
     }

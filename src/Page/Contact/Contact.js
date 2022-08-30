@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./contact.css";
 import Iframe from "react-iframe";
+import { useDispatch, useSelector } from "react-redux";
+import { sendContact } from "../../redux/apiCalls";
 const Contact = () => {
+  const [fullName, setName] = useState();
+  const [jobTitle, setJob] = useState();
+  const [email, setEmail] = useState();
+  const [contact, setPhone] = useState();
+  const [address, setAddress] = useState();
+  const [message, setMessage] = useState();
+  const dispatch = useDispatch();
+  const submitNow = (e) => {
+    e.preventDefault();
+    const contactData = {
+      fullName,
+      jobTitle,
+      email,
+      contact,
+      address,
+      message,
+    };
+    dispatch(sendContact(contactData));
+  };
   return (
     <div>
       <Navbar />
@@ -17,34 +38,49 @@ const Contact = () => {
             <form>
               <div className="inputField">
                 <div>
-                  <h5>First Name</h5>
-                  <input />
+                  <h5>Full Name</h5>
+                  <input onChange={(e) => setName(e.target.value)} />
                   <h5>E-Mail</h5>
-                  <input type="email" name="email" />
+                  <input
+                    type="email"
+                    name="email"
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
                 </div>
                 <div>
-                  <h5>Last Name</h5>
-                  <input />
+                  <h5>Job Title</h5>
+                  <input onChange={(e) => setJob(e.target.value)} />
                   <h5>Phone</h5>
-                  <input />
+                  <input onChange={(e) => setPhone(e.target.value)} />
                   <div className="mobileInput">
                     <h5>Address</h5>
-                    <input />
+                    <input onChange={(e) => setAddress(e.target.value)} />
                     <h5>Message</h5>
-                    <input />
+                    <input onChange={(e) => setMessage(e.target.value)} />
                     <div className="contactBtnContainer">
-                      <button className="contactSubmitbtn">Submit</button>
+                      <button className="contactSubmitbtn" onClick={submitNow}>
+                        Submit
+                      </button>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="BigMsg">
                 <h5>Address</h5>
-                <input className="msgInput" />
+                <input
+                  onChange={(e) => setAddress(e.target.value)}
+                  className="msgInput"
+                />
                 <h5>Message</h5>
-                <textarea rows="5" cols="65" />
+                <textarea
+                  onChange={(e) => setMessage(e.target.value)}
+                  rows="5"
+                  cols="65"
+                />
                 <div className="contactBtnContainer">
-                  <button className="contactSubmitbtn">Submit</button>
+                  <button onClick={submitNow} className="contactSubmitbtn">
+                    Submit
+                  </button>
                 </div>
               </div>
             </form>

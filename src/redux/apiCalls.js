@@ -64,3 +64,15 @@ export const getAllCategory = async (dispatch) => {
     console.log(error);
   }
 };
+
+export const sendContact = async (conData) => {
+  try {
+    await axios.post(
+      "https://multi-agency.herokuapp.com/api/v1/contact",
+      conData
+    );
+    console.log(conData);
+  } catch (err) {
+    console.log(err);
+  }
+};

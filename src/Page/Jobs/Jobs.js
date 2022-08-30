@@ -19,15 +19,18 @@ const Jobs = () => {
     getAllJobs(dispatch);
     setLoading(false);
   }, [dispatch]);
+
+  const filteredData = JobsData.filter((data) =>
+    data.name.toLowerCase().includes(search.toLowerCase())
+  );
+
   const jData = JobsData.map((items) => {
     return <IndiJobs item={items} />;
   });
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
-  const filteredData = JobsData.filter((data) =>
-    data.name.toLowerCase().includes(search.toLowerCase())
-  );
+
   return (
     <div>
       <Navbar />
