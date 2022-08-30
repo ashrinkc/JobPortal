@@ -57,6 +57,15 @@ li{
     width: 20vw;
     height: 5vh;
 }
+
+.mainNavbb {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbb{
     background-color: rgb(24, 23, 23);
     color: white;
@@ -64,7 +73,7 @@ li{
 }
 
 .navMar{
-    padding-left: 15vw;
+    /* padding-left: 15vw; */
     margin-bottom: 10vh;
 }
 
@@ -72,12 +81,13 @@ li{
 .navItems{
     /* padding-left: 5px;
         padding-right: 5px; */
+        
 }
 
 
 .BrandLogo{
     height: 13vh;
-    margin-left: -2vw;
+    /* margin-left: -2vw; */
         cursor: pointer;
 }
 @media only screen and (max-width: 980px) {
@@ -87,7 +97,16 @@ li{
         /* justify-content: center; */
         align-items: center;
     }
+    .mainNavbb{
+        background-color: rgb(24, 23, 23);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .navbb{
+
+        width: 90%;
         /* width: 85rem; */
     }
     .BrandLogo{

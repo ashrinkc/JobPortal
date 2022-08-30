@@ -119,6 +119,10 @@ background-color: rgb(24, 23, 23);
     gap: 5vh;
 }
 
+.blogReadMore{
+    color: rgb(236, 27, 52);
+}
+
 @media only screen and (max-width: 980px) {
     .indiBlog{
         gap: 3vh;

@@ -85,7 +85,7 @@ const Blog = () => {
                 </div> */}
 
                 {/* <small>12 min read</small> */}
-                <div>
+                <div className="blogReadMore">
                   <h5 onClick={() => navigate(`/indiBlog/${item._id}`)}>
                     Read More
                   </h5>
