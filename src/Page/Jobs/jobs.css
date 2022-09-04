@@ -36,6 +36,10 @@
         height: 7vh;
 }
 
+.dreamJob>input{
+    padding-left: 2vh;
+}
+
 .jobheadSrch>button{
     height: 7vh;
     background-color: rgb(207, 13, 13);
@@ -50,10 +54,13 @@
     height: 55vh;
     display: flex;
     flex-direction: column;
-    justify-content: center ;
+    padding-top: 5vh;
+    /* justify-content: center ; */
     align-items: center;
     cursor: pointer;
 }
+
+
 
 .insideJobs{
     display: flex;
@@ -63,6 +70,10 @@
     gap: 3vh;
     width: 17vw;
     cursor: pointer;
+}
+
+.insideJobs>h4{
+    font-weight: 900;
 }
 
 .indiJobs:hover{
