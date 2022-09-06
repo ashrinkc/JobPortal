@@ -10,20 +10,23 @@ const AboutUs = () => {
       <Navbar />
       <div className="aboutMain">
         <div className="aboutContainer">
-          <h3 style={{ color: "red" }}>Company Name</h3>
+          <h3 style={{ color: "red" }}>About Multi Employment Agency</h3>
           <small>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo
-            asperiores laudantium in minima est quis aliquam, deleniti illo
-            saepe ut culpa ea perspiciatis consequatur voluptatibus expedita non
-            voluptas nulla velit voluptate. Veritatis commodi, asperiores veniam
-            eveniet, sit dolorum doloribus distinctio quod architecto deleniti
-            at numquam ipsum odio velit minus? Officia modi libero, cum tenetur
-            debitis vero quae minus consequuntur aspernatur non nulla ad dicta,
-            rem deleniti quas dolores architecto nisi. Optio dolores modi
-            sapiente itaque vel, aliquam aperiam beatae quidem atque laudantium
-            sequi delectus voluptates distinctio molestiae cum cumque obcaecati
-            recusandae deleniti similique, dignissimos et doloremque?
-            Dignissimos, assumenda nihil?
+            As an organization run by dedicated employees and directors with
+            many years of experience in bridging work and human resources, MEA
+            is a specialist in staffing solutions in Poland. In addition, MEA is
+            committed to building and continuously expanding its database of job
+            seekers, helping potential clients achieve their goals of finding
+            the right people for the right jobs through our online platform. We
+            envision an online employment platform that enables companies to
+            find the perfect talent and individuals to pursue rewarding careers.
+            “We build bridges between employers and job seekers.” With this
+            mission statement, we maintain healthy relationships with our
+            clients and job seekers, providing the best service and advice to
+            connect jobs and talent. We would like to provide we work as a team
+            and share knowledge for continuous improvement, learning, and
+            innovation. We value the trust our customers place in us and strive
+            to live up to that trust by providing reliable service.
           </small>
         </div>
         <div className="gallery">

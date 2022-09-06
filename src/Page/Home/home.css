@@ -130,16 +130,18 @@
 
 .tasks{
     display: flex;
-    gap: 10vw;
+    gap: 4vw;
     margin-top: 10vh;
-    width: 95%;
+    width: 100%;
+    justify-content: center;
+    
 }
 
 .tasknum{
     /* display: flex;
     flex-direction: column; */
 background-color: rgb(236, 27, 52);
-    width: 4vw;
+    width: 9vw;
     height: 4.5vh;
     border-radius: 50%;
     display: flex;
@@ -185,8 +187,9 @@ background-color: rgb(236, 27, 52);
 .taskInfo{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 8vh;
-    /* width: 100% ; */
+    width: 50% ;
 }
 
 .taskInfo>div>h1{

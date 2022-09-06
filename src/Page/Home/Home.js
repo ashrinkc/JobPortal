@@ -135,20 +135,27 @@ const Home = () => {
                     <div className="taskDet">
                       <h1>Submit your CV & Document</h1>
                       <small>
-                        Now you can apply for Working Visa of Poland from India
-                        & Nepal. Submit your CV & Documents to our given mail
-                        address.
+                        When applying for your Temporary Skill Shortage visa
+                        (TSS visa) subclass 482 you will need to write and
+                        submit a copy of your CV (also known as resume) as part
+                        of the application. It’s therefore very important that
+                        you make sure your CV contains all the facts that prove
+                        to the case officer assessing your application that you
+                        are eligible for the visa.
                       </small>
                     </div>
                   </div>
                   <div className="taskInfoIn">
                     <div className="tasknum">3</div>
                     <div className="taskDet">
-                      <h1>Apply the Dates for Embassy in Delhi</h1>
+                      <h1>Pay the non-refundable application fee</h1>
                       <small>
-                        Now you can apply for Working Visa of Poland from India
-                        & Nepal. Submit your CV & Documents to our given mail
-                        address.
+                        You will need your SEVIS ID and the program number
+                        (P-3-05381). Complete this process to pay for your visa
+                        appointment. If you can't do it all at once, you can
+                        save and come back! A visa appointment costs 160 USD.
+                        This fee is in addition to the sponsorship fee paid to
+                        Inter-Exchange.
                       </small>
                     </div>
                   </div>
@@ -157,22 +164,29 @@ const Home = () => {
                   <div className="taskInfoIn">
                     <div className="tasknum">2</div>
                     <div className="taskDet">
-                      <h1>Contact Us for help and guidance</h1>
+                      <h1>Find the embassy nearby </h1>
                       <small>
-                        Now you can apply for Working Visa of Poland from India
-                        & Nepal. Submit your CV & Documents to our given mail
-                        address.
+                        Visit the Poland Embassy website and select your nearest
+                        country and embassy! Most visa applicants will need to
+                        schedule a visa interview, but some applicants may be
+                        eligible for a visa extension. Embassy or consulate
+                        information may include local specific instructions on
+                        how to schedule an interview, how to submit a visa
+                        application.
                       </small>
                     </div>
                   </div>
                   <div className="taskInfoIn">
                     <div className="tasknum">4</div>
                     <div className="taskDet">
-                      <h1>Apply the Dates for Embassy in Delhi</h1>
+                      <h1>Schedule your visa appointment</h1>
                       <small>
-                        Now you can apply for Working Visa of Poland from India
-                        & Nepal. Submit your CV & Documents to our given mail
-                        address.
+                        During the interview, applicants must demonstrate to the
+                        consular officer that they have binding ties to a
+                        foreign residence they do not intend to relinquish and
+                        to come to the United States temporarily. It is not
+                        possible to determine the exact form of proof submitted,
+                        as the circumstances of applicants vary widely.
                       </small>
                     </div>
                   </div>
