@@ -69,7 +69,11 @@ const Footer = () => {
                   {" "}
                   Visa Process
                 </p>
-                <p onClick={() => navigate("/") || window.scrollTo(0, 2000)}>
+                <p
+                  onClick={async () =>
+                    navigate("/") || window.scrollTo(0, 2100)
+                  }
+                >
                   {" "}
                   How to Apply?
                 </p>
