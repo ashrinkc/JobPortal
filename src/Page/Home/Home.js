@@ -292,7 +292,7 @@ const Home = () => {
               <div className="careerInfo">
                 <img src={delhi} />
                 <div>
-                  <h6>How to apply for Embassy in Delhi?</h6>
+                  <h6>Signs that your job is toxic</h6>
                   <small>
                     Now you can apply for Working Visa from India & Nepal.{" "}
                   </small>
@@ -301,7 +301,7 @@ const Home = () => {
               <div className="careerInfo">
                 <img src={pland} />
                 <div>
-                  <h6>How to apply for Embassy in Delhi?</h6>
+                  <h6>Professionalism in the Workplace</h6>
                   <small>
                     Now you can apply for Working Visa from India & Nepal.{" "}
                   </small>

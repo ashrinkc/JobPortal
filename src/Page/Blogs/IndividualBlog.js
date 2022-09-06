@@ -34,6 +34,7 @@ const IndividualBlog = () => {
           <h1>{title}</h1>
           <img src={image} />
           <p>{desc}</p>
+          {/* <p>{desc.slice(500)}</p> */}
         </div>
       </div>
       <Footer />
