@@ -105,7 +105,7 @@ const Home = () => {
           <div className="talentIn">
             <div className="talentInfo">
               <h3>Apply directly from</h3>
-              <a>India & Nepal.</a>
+              <a>Here & Anywhere.</a>
               <button
                 onClick={() => navigate("/about") || window.scrollTo(0, 0)}
               >
