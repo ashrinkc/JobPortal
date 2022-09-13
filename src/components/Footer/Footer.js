@@ -86,10 +86,22 @@ const Footer = () => {
             <div className="commImgMain">
               <h3>Connect</h3>
               <div className="connImg">
-                <img src={fbook} />
+                <img
+                  onClick={() =>
+                    (window.location.href =
+                      "https://www.facebook.com/profile.php?id=100085324913749")
+                  }
+                  src={fbook}
+                />
                 <img src={lin} />
                 <img src={twitter} />
-                <img src={insta} />
+                <img
+                  onClick={() =>
+                    (window.location.href =
+                      "https://www.instagram.com/multiemploymentagency/?fbclid=IwAR1NbYatmGqQpiKUFJ_rNNGM1X8Yz8uQJP88Glc5NyNl1UDa_kcv9TUG9Uc")
+                  }
+                  src={insta}
+                />
                 <img src={whatsapp} />
               </div>
             </div>

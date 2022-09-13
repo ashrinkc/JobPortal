@@ -12,8 +12,8 @@ const MainTopBar = () => {
     <div className="topBarContainer">
       <div className="topBarInfo">
         <div className="conInfo">
-          <div>CONTACT:9861859764</div>
-          <div>EMAIL:info@rhubarbsajoon.com</div>
+          <div>CONTACT:+48 537298123</div>
+          <div> multiemploymentagency@gmail.com</div>
         </div>
         <div className="socialImg">
           <div>

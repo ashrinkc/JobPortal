@@ -102,7 +102,7 @@ const Contact = () => {
         </div>
         <div className="map">
           <Iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2439.1792271156473!2d17.043328424303056!3d52.31275020411122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704579d12e792b9%3A0xf10a878c8c463fd!2sAkacjowa%203%2C%2062-023%20G%C4%85dki%2C%20Poland!5e0!3m2!1sen!2snp!4v1662966081213!5m2!1sen!2snp"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.6551256854345!2d16.948638400000004!3d51.0963719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc1bc1263b829%3A0x916032bab291d191!2sStanis%C5%82awowska%2047%2C%2054-611%20Wroc%C5%82aw%2C%20Poland!5e0!3m2!1sen!2snp!4v1663049179584!5m2!1sen!2snp"
             width="100%"
             height="450"
           ></Iframe>
