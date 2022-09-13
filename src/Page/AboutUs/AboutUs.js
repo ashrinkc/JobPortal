@@ -42,7 +42,7 @@ const AboutUs = () => {
             <img className="item2" src={teamtwo} />
             <img className="item3" src={teamthree} />
             <img className="item4" src={teamfour} />
-            <img className="item5" src={teamfive} />
+            <img className="item5" src={teamfive} /> 
             <img className="item6" src={team} />
           </div>
         </div>
