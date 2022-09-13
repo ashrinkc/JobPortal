@@ -25,7 +25,7 @@ export const getAllBlogs = async (dispatch) => {
   dispatch(getBlogsStart());
   try {
     const res = await axios.get(
-      "https://multi-agency.herokuapp.com/api/v1/blog/allBlog"
+      "https://multiemploymentagency.com/api/v1/blog/allBlog"
     );
 
     console.log(res.data);
@@ -43,7 +43,7 @@ export const getAllJobs = async (dispatch) => {
   console.log("kkk");
   try {
     const res = await axios.get(
-      "https://multi-agency.herokuapp.com/api/v1/jobs/allJobs"
+      "https://multiemploymentagency.com/api/v1/jobs/allJobs"
     );
     console.log(res);
     dispatch(getJobsSuccess(res.data));
@@ -68,7 +68,7 @@ export const getAllCategory = async (dispatch) => {
 export const sendContact = async (conData) => {
   try {
     await axios.post(
-      "https://multi-agency.herokuapp.com/api/v1/contact",
+      "https://multiemploymentagency.com/api/v1/contact",
       conData
     );
     console.log(conData);

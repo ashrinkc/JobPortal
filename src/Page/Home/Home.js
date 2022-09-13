@@ -10,6 +10,7 @@ import Footer from "../../components/Footer/Footer";
 import human from "../../Images/human.png";
 import supCom from "../../Images/SupportComp.png";
 import woman from "../../Images/businesswoman.png";
+import log from "../../Images/log.png";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import MainTopBar from "../../components/MainTopBar/MainTopBar";
 import { useNavigate } from "react-router-dom";
@@ -57,22 +58,22 @@ const Home = () => {
           <h1>Trusted by 100+ companies in Poland</h1>
           <div className="supComContainer">
             <div>
-              <img className="supCom" src={supCom} />
+              <img className="supCom" src={log} />
             </div>
             <div>
-              <img className="supCom" src={supCom} />
+              <img className="supCom" src={log} />
             </div>
             <div>
-              <img className="supCom" src={supCom} />
+              <img className="supCom" src={log} />
             </div>
             <div>
-              <img className="supCom" src={supCom} />
+              <img className="supCom" src={log} />
             </div>
             <div>
-              <img className="supCom" src={supCom} />
+              <img className="supCom" src={log} />
             </div>
             <div>
-              <img className="supCom" src={supCom} />
+              <img className="supCom" src={log} />
             </div>
           </div>
         </div>
