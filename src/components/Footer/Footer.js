@@ -18,12 +18,13 @@ const Footer = () => {
             {/* <h2>MULTI EMPLOYMENT AGENCY</h2> */}
             <img src={multiEmp} />
             <p className="spo">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              As an organization run by dedicated employees and directors with
+              many years of experience in bridging work and human resources, MEA
+              is a specialist in staffing solutions in Poland. In addition, MEA
+              is committed to building and continuously expanding its database
+              of job seekers, helping potential clients achieve their goals of
+              finding the right people for the right jobs through our online
+              platform.
             </p>
             <p className="sp">
               <a style={{ color: "rgb(236, 27, 52)" }}>

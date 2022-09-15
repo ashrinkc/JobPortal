@@ -290,7 +290,7 @@ const Home = () => {
               </div>
             </div>
             <div className="careerBlogs">
-              <div className="careerInfo">
+              <div className="careerInfo" onClick={() => navigate("/blog")}>
                 <img src={delhi} />
                 <div>
                   <h6>Signs that your job is toxic</h6>
@@ -299,7 +299,7 @@ const Home = () => {
                   </small>
                 </div>
               </div>
-              <div className="careerInfo">
+              <div className="careerInfo" onClick={() => navigate("/blog")}>
                 <img src={pland} />
                 <div>
                   <h6>Professionalism in the Workplace</h6>
@@ -308,7 +308,7 @@ const Home = () => {
                   </small>
                 </div>
               </div>
-              <div className="careerInfo">
+              <div className="careerInfo" onClick={() => navigate("/blog")}>
                 <img src={delhi} />
                 <div>
                   <h6>How to apply for Embassy in Delhi?</h6>

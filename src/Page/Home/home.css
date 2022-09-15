@@ -18,11 +18,7 @@
     cursor: pointer;
 }
 
-.viewJobs>h6{
-    border-bottom: 1px red;
-    border-bottom-style: solid ;
-    padding-bottom: 2vh;
-}
+
 
 .homeInfo {
     display: flex;
@@ -213,6 +209,7 @@ background-color: rgb(236, 27, 52);
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    cursor: pointer;
 }
 
 .careerInfo>div>h6{
@@ -628,7 +625,21 @@ button:hover{
 .careerViewAll{
     margin-top: 5vh;
     cursor: pointer;
-    text-decoration: underline rgb(207, 13, 13);
+    /* text-decoration: underline rgb(207, 13, 13); */
+    /* border-bottom: #d62727; */
+    /* padding-bottom: 2vh; */
+}
+
+.careerViewAll>h6{
+    border-bottom: 1px red;
+        border-bottom-style: solid;
+        padding-bottom: 2vh;
+}
+
+.viewJobs>h6 {
+    border-bottom: 1px red;
+    border-bottom-style: solid;
+    padding-bottom: 2vh;
 }
 
 @media only screen and (max-width: 980px) {
