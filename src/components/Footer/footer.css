@@ -103,6 +103,10 @@
     font-weight: 500;
 }
 
+.connImg>img:hover{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 980px) {
     .footerContainer{
         /* width: 85rem; */

@@ -12,7 +12,7 @@ const MainTopBar = () => {
     <div className="topBarContainer">
       <div className="topBarInfo">
         <div className="conInfo">
-          <div>CONTACT:+48 537298123</div>
+          <div>CONTACT:+48-537298123</div>
           <div> multiemploymentagency@gmail.com</div>
         </div>
         <div className="socialImg">

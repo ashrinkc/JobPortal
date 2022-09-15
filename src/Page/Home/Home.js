@@ -61,6 +61,9 @@ const Home = () => {
               <img className="supCom" src={log} />
             </div>
             <div>
+              <img className="supCom" src={supCom} />
+            </div>
+            {/* <div>
               <img className="supCom" src={log} />
             </div>
             <div>
@@ -71,10 +74,7 @@ const Home = () => {
             </div>
             <div>
               <img className="supCom" src={log} />
-            </div>
-            <div>
-              <img className="supCom" src={log} />
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <hr className="hrr" /> */}
@@ -108,7 +108,7 @@ const Home = () => {
               <h3>Apply directly from</h3>
               <a>Here & Anywhere.</a>
               <button
-                onClick={() => navigate("/about") || window.scrollTo(0, 0)}
+                onClick={() => navigate("/contact") || window.scrollTo(0, 0)}
               >
                 Apply Now
               </button>

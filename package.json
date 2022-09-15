@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": "https://multiemploymentagency.com/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",

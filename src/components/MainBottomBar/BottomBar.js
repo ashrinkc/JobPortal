@@ -5,7 +5,7 @@ const BottomBar = () => {
     <div className="mainBottomBar">
       <div className="bottomBar">
         <div className="bottomLeft">
-          <h3>CONTACT: +48 537298123</h3>
+          <h3>CONTACT: (+48)537298123</h3>
           <h3>EMAIL: multiemploymentagency@gmail.com</h3>
         </div>
         <div>
